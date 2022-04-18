@@ -1,11 +1,11 @@
-Fitter Status : Successful - Mon Apr 18 14:36:38 2022
+Fitter Status : Successful - Mon Apr 18 16:49:29 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
 Revision Name : ECEN3763_HW13
 Top-level Entity Name : ECEN3763_HW13
 Family : Cyclone V
 Device : 5CSXFC6D6F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 9 / 41,910 ( < 1 % )
+Logic utilization (in ALMs) : 1 / 41,910 ( < 1 % )
 Total registers : 32
 Total pins : 33 / 499 ( 7 % )
 Total virtual pins : 0
