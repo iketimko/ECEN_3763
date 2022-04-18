@@ -1,0 +1,17 @@
+Partition Merge Status : Successful - Tue Apr 12 20:53:40 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : IT_LAB_9
+Top-level Entity Name : IT_LAB_9
+Family : Cyclone V
+Logic utilization (in ALMs) : 2,143 / 41,910 ( 5 % )
+Total registers : 3281
+Total pins : 168 / 499 ( 34 % )
+Total virtual pins : 0
+Total block memory bits : 29,568 / 5,662,720 ( < 1 % )
+Total DSP Blocks : 0 / 112 ( 0 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 2 / 15 ( 13 % )
+Total DLLs : 0 / 4 ( 0 % )

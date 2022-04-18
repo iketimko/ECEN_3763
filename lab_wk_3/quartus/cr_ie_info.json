@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus_stp",
+		"comment" : "not_applicable",
+		"error_message" : "Access Violation at 0X00007FF9319A0700",
+		"source_file" : "unknown",
+		"line" : "0",
+		"stack_trace" : "\t0x7ff9319a06ff: jtag_client + 0x106ff (?close_device@AJI_OPEN_JS@@UEAA?AW4AJI_ERROR@@XZ + 0x36f)\n\t0x7ff94b9912b3: sld_hapi + 0x12b3 (??1HAPI_SMO_HUB@@QEAA@XZ + 0x73)\n\t0x7ff94b991217: sld_hapi + 0x1217 (??1HAPI_SMO_DEVICE@@QEAA@XZ + 0xa7)\n\t0x7ff94b991344: sld_hapi + 0x1344 (??1HAPI_SMO_MANAGER@@QEAA@XZ + 0x44)\n\t0x7ff94b9954d7: sld_hapi + 0x54d7 (_CRT_INIT + 0xeb)\n\t0x7ff94b995759: sld_hapi + 0x5759 (__DllMainCRTStartup + 0xe1)\n\t0x7ff96919fc36: ntdll + 0x3fc36 (RtlActivateActivationContextUnsafeFast + 0x126)\n\t0x7ff9691b41af: ntdll + 0x541af (LdrShutdownProcess + 0x16f)\n\t0x7ff9691b401c: ntdll + 0x5401c (RtlExitUserProcess + 0xac)\n\t0x7ff96843c66a: KERNEL32 + 0x1c66a (ExitProcess + 0xa)\n\t0x7ff94fb229a6: MSVCR120 + 0x229a6 (_initterm_e + 0x21a)\n\t0x7ff94e3c3f00: CCL_ERR + 0x3f00 (err_ctrl_c_handler + 0x30)\n\t0x7ff966782014: KERNELBASE + 0x132014 (CtrlRoutine + 0x114)\n\t0x7ff9684354df: KERNEL32 + 0x154df (BaseThreadInitThunk + 0xf)\n\t0x7ff96916485a: ntdll + 0x485a (RtlUserThreadStart + 0x2a)\n",
+		"subsystem" : "unknown"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "20.1.1",
+		"build" : "720",
+		"edition" : "Standard Edition"
+	}
+}

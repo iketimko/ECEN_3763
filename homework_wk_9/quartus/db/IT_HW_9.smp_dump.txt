@@ -1,0 +1,19 @@
+
+State Machine - |IT_HW_9|HW_8_PD:u1|HW_8_PD_master_0:master_0|altera_avalon_packets_to_master:transacto|packets_to_master:p2m|state
+Name state.READ_SEND_WAIT~0 state.READ_SEND_ISSUE~0 state.READ_DATA_WAIT~0 state.READ_CMD_WAIT~0 state.READ_ASSERT~0 state.RETURN_PACKET~0 state.WRITE_WAIT~0 state.GET_WRITE_DATA~0 state.GET_ADDR4~0 state.GET_ADDR3~0 state.GET_ADDR2~0 state.GET_ADDR1~0 state.GET_SIZE2~0 state.GET_SIZE1~0 state.GET_EXTRA~0 state.0000~0 
+state.0000~0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.GET_EXTRA~0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.GET_SIZE1~0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.GET_SIZE2~0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.GET_ADDR1~0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.GET_ADDR2~0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.GET_ADDR3~0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.GET_ADDR4~0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.GET_WRITE_DATA~0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.WRITE_WAIT~0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.RETURN_PACKET~0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.READ_ASSERT~0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_CMD_WAIT~0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_DATA_WAIT~0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_ISSUE~0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state.READ_SEND_WAIT~0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 

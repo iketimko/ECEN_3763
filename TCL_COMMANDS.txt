@@ -1,0 +1,51 @@
+All commands should be run in PowerShell
+The board must be connected
+The board must be powered on
+The board must be programmed with you design
+
+- Open the documentation
+    quartus_sh -Qhelp
+
+- Open the STP console and remain open
+    quartus_stp -s
+
+-In-system sources and probes: documentation>TCL API Packages>insystem_source_probe
+
+- List available packages
+    help
+
+- Load a package
+    load_package
+
+-  Interrogate the system for the name of the USB-Blaster cable (returns list)
+    get_hardware_names
+
+    - EX set the cable to the 0th index of the cable list
+        set cable [lindex [get_hardware_names] 0]
+
+- Interrogate the system for the specific FPGA containing the ISSP cores
+    get_device_names
+
+    - EX Set the device name to the FPGA fabric (second value) in the list of devices
+        set device_name [lindex [get_device_names -hardware_name $cable] 1]
+
+- Get the instance names of the cores. The returned information is in the form {instance number  # of sources  # of probes}
+    get_insystem_source_probe_instance_info -device_name $device_name -hardware_name $cable
+
+- Start a new in-system source or probe
+    start_insystem_source_probe -device_name $device_name -hardware_name $cable
+
+- End the insystem_source_probe session
+    end_insystem_source_probe
+
+- Set the value of a source
+    write_source_data
+
+    - EX Set the value of source 0 to 0
+        write_source_data -instance_index 0 -value 0
+
+- Read a value from a probe
+    read_probe_data [-h] [-help] [-long_help] -instance_index <instance_index> [-value_in_hex]
+
+    - EX Display the value of instance 2 in hex
+        read_probe_data -instance_index 2 -value_in_hex

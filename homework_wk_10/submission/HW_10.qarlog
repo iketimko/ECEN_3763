@@ -1,0 +1,17 @@
+Quartus Prime Archive log --	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_10/submission/HW_10.qarlog
+
+Archive:	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_10/submission/HW_10.qar
+Date:		Thu Mar 24 20:40:29 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_10/quartus/setup.SDC
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_10/quartus/setup.qpf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_10/quartus/setup.qsf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_10/quartus/setup_assignment_defaults.qdf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_10/source/setup.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_10/source/tb.sv
+	======= Total: 6 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,29 @@
+Isaac Timko
+ECEN 3763 Homework Week 3
+Written answers for questions 1-8
+Due: 1/31/2022
+--------------------------------------------------------------------------------
+
+Question 1:  Briefly describe the board behavior after programming.
+    - The board flashes the LEDs in the pattern of an 8 bit counter, the tenth LED stays illuminated constantly. The switches appear to do nothing, the blue display is illuminated.
+
+Question 2:  What do the pushbuttons do?
+    - The push buttons do not appear to do anything.
+
+Question 3:  What signal is used to control the direction of counting on the LEDRs?
+    - "up_down_n" is used to control the direction of counting.
+
+Question 4:  What value is returned for cable?
+    - The TCL console returns "DE-SoC [USB-1]" as the 0th index in the cable list.
+
+Question 5:  What value is returned for device_names?
+    - The get_device_names command returns a list of 2 device names. The device name returned for the FPGA fabric is "@2: 5CSEBA6(.|ES)/5CSEMA6/.. (0x02D020DD)", and the device name for the SOC is "@1: SOCVHPS (0x4BA00477)". I set the device name to the name of the FPGA fabric.
+
+Question 6:  What command will cause the counter to run?
+    - To start the counter, you must set reset to 1 with the command: "write_source_data -instance_index 0 -value 1"
+
+Question 7:  What command will cause the counter to reverse direction?
+    - The direction core is instance 1 therefore, the command to change the direction is: "write_source_data -instance_index 1 -value 0"
+
+Question 8:  What command will display the LED values in hex?
+    - The 8 counter bits controlling the LEDs are located in instance 2, therefore, "read_probe_data -instance_index 2 -value_in_hex" will print the counter value in hex.

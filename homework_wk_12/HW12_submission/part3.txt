@@ -1,0 +1,19 @@
+Info: Quartus Prime Fitter was successful. 0 errors, 25 warnings
+	Info: Peak virtual memory: 6602 megabytes
+	Info: Processing ended: Mon Apr 11 15:39:11 2022
+	Info: Elapsed time: 00:00:54
+	Info: Total CPU time (on all processors): 00:01:27
+Info: *******************************************************************
+Info: Running Quartus Prime Shell
+	Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+	Info: Processing started: Mon Apr 11 15:39:13 2022
+Info: Command: quartus_sh -t pins.tcl quartus_fit setup setup
+Info: Quartus(args): quartus_fit setup setup
+Info: All 15 input pins have been assigned locations.
+Info: All 10 output pins have been assigned locations.
+Info (23030): Evaluation of Tcl script pins.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+	Info: Peak virtual memory: 4638 megabytes
+	Info: Processing ended: Mon Apr 11 15:39:13 2022
+	Info: Elapsed time: 00:00:00
+	Info: Total CPU time (on all processors): 00:00:00

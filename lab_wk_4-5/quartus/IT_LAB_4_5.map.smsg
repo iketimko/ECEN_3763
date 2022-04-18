@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at pixelgen.sv(35): always construct contains both blocking and non-blocking assignments File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/pixelgen.sv Line: 35

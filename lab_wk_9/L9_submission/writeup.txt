@@ -1,0 +1,50 @@
+Isaac Timko
+Lab 9 Write-up
+DUE 4/15
+
+
+Lab 9 was the most difficult so far this semester. I believe the largest reason
+this lab was difficult was less guidance was provided in the lab document. I
+believe the most difficult part of this lab was designing the platform designer
+block. I found that a reoccurring issue for me was my understanding of how the
+system was to be structured and the interface between the different platform
+designer blocks.
+
+Initially, I attempted to use platform designer for both the SDRAM clock,
+software clock, and the pixel clock. Unfortunately I ran into trouble when
+trying to route the pixel clock outside the platform designer block into the
+pixel generator and counter functions in my modules code. Eventually, I ended
+up creating the pixel clock in an external IP block within Quartus, and
+exporting the FIFO out clock form the platform designer block. This allowed me
+to be able to route the pixel clock to both the FIFO and the source modules via
+system Verilog in my source code. Unfortunately since the clock was routed
+externally from the platform designer block and handled within the source code,
+this makes it harder for the compiler to realize that that signal is a clock
+and opens up the possibility for clock delays and errors.
+
+Another issue I had was with understanding the SDRAM status register. While
+working on my  TCL script to reset and start the SDRAM controller, I kept
+seeing unexpected changes in the status register as I progressed through
+setting and resetting the control registers of the Memory Controller.
+Eventually, I ended up moving the step of the procedure where I reset the
+status register to 000000 from the beginning to the end of my loop. This
+resulted in the expected result after a transfer. Unfortunately, I never
+figured out why the status register kept changing as I set and reset the other
+control registers to prepare for a transfer, but I was able to achieve success
+with the new configuration so I won't look a gift horse in the mouth.
+
+Finally, when testing my completed project, I wasn't able to see a consistent
+signal in the screen. I only was able to see the colored bars moving very
+quickly across my screen vertically. This initially made me think that there
+was an issue with the memory values being read out of the SDRAM. Unfortunately,
+after reviewing the signal tap plots, I wasn't able to determine that there
+were any errors in the data addresses being commanded or the pixel values being
+reported back. Eventually I gave up and admitted defeat.
+
+I really enjoyed this lab, Had I gotten it done earlier I really would have
+liked to implement the Quartus IP the professor developed to automatically
+reload the SDRAM controller after each frame instead of doing it with TCL. I
+also would have liked to load a series of image frames into the SDRAM to be
+played back on the monitor as a short repeating video instead of just a few
+colored bars. Unfortunately, I did not advance quickly enough on this lab, and
+I did not have the time to implement these features.

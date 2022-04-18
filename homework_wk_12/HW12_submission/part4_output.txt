@@ -1,0 +1,265 @@
+tcl> source setup.tcl
+Info: *******************************************************************
+Info: Running Quartus Prime Analysis & Synthesis
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Processing started: Mon Apr 11 16:02:14 2022
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off setup -c setup
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file /users/idtti/onedrive/desktop/ecen_3763/homework_wk_12/source/tb.sv
+    Info (12023): Found entity 1: tb File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/source/tb.sv Line: 12
+Info (12021): Found 1 design units, including 1 entities, in source file /users/idtti/onedrive/desktop/ecen_3763/homework_wk_12/source/setup.sv
+    Info (12023): Found entity 1: setup File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/source/setup.sv Line: 10
+Info (12127): Elaborating entity "setup" for the top level hierarchy
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Warning (21074): Design contains 1 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "KEY[3]" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/source/setup.sv Line: 16
+Info (21057): Implemented 58 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 15 input pins
+    Info (21059): Implemented 10 output pins
+    Info (21061): Implemented 33 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 4827 megabytes
+    Info: Processing ended: Mon Apr 11 16:02:31 2022
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:39
+Info: *******************************************************************
+Info: Running Quartus Prime Fitter
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Processing started: Mon Apr 11 16:02:32 2022
+Info: Command: quartus_fit --read_settings_files=off --write_settings_files=off setup -c setup
+Info: qfit2_default_script.tcl version: #1
+Info: Project  = setup
+Info: Revision = setup
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (119006): Selected device 5CSXFC6D6F31C6 for design "setup"
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
+Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
+Info (184020): Starting Fitter periphery placement operations
+Info (11191): Automatically promoted 1 clock (1 global)
+    Info (11162): CLOCK_50~inputCLKENA0 with 32 fanout uses global clock CLKCTRL_G6
+Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:00
+Info (176233): Starting register packing
+Info (332104): Reading SDC File: 'setup.SDC'
+Warning (332174): Ignored filter at setup.SDC(9): CLOCK2_50 could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 9
+Warning (332049): Ignored create_clock at setup.SDC(9): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 9
+    Info (332050): create_clock -period "50.000000 MHz" [get_ports CLOCK2_50] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 9
+Warning (332174): Ignored filter at setup.SDC(10): CLOCK3_50 could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 10
+Warning (332049): Ignored create_clock at setup.SDC(10): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 10
+    Info (332050): create_clock -period "50.000000 MHz" [get_ports CLOCK3_50] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 10
+Warning (332174): Ignored filter at setup.SDC(11): CLOCK4_50 could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 11
+Warning (332049): Ignored create_clock at setup.SDC(11): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 11
+    Info (332050): create_clock -period "50.000000 MHz" [get_ports CLOCK4_50] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 11
+Warning (332174): Ignored filter at setup.SDC(15): altera_reserved_tck could not be matched with a port or pin or register or keeper or net or combinational node or node File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 15
+Warning (332049): Ignored create_clock at setup.SDC(15): Argument <targets> is not an object ID File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 15
+    Info (332050): create_clock -name {altera_reserved_tck} -period 40 {altera_reserved_tck} File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 15
+Warning (332174): Ignored filter at setup.SDC(16): altera_reserved_tdi could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 16
+Warning (332174): Ignored filter at setup.SDC(16): altera_reserved_tck could not be matched with a clock File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 16
+Warning (332049): Ignored set_input_delay at setup.SDC(16): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 16
+    Info (332050): set_input_delay -clock altera_reserved_tck -clock_fall 3 [get_ports altera_reserved_tdi] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 16
+Warning (332049): Ignored set_input_delay at setup.SDC(16): Argument -clock is not an object ID File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 16
+Warning (332174): Ignored filter at setup.SDC(17): altera_reserved_tms could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 17
+Warning (332049): Ignored set_input_delay at setup.SDC(17): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 17
+    Info (332050): set_input_delay -clock altera_reserved_tck -clock_fall 3 [get_ports altera_reserved_tms] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 17
+Warning (332049): Ignored set_input_delay at setup.SDC(17): Argument -clock is not an object ID File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 17
+Warning (332174): Ignored filter at setup.SDC(18): altera_reserved_tdo could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 18
+Warning (332049): Ignored set_output_delay at setup.SDC(18): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 18
+    Info (332050): set_output_delay -clock altera_reserved_tck 3 [get_ports altera_reserved_tdo] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 18
+Warning (332049): Ignored set_output_delay at setup.SDC(18): Argument -clock is not an object ID File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 18
+Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info (332129): Detected timing requirements -- optimizing circuit to achieve only the specified requirements
+Info (332111): Found 1 clocks
+    Info (332111):   Period   Clock Name
+    Info (332111): ======== ============
+    Info (332111):   20.000     CLOCK_50
+Info (176235): Finished register packing
+    Extra Info (176219): No registers were packed into other blocks
+Warning (15705): Ignored locations or region assignments to the following nodes
+    Warning (15706): Node "CLOCK2_50" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "CLOCK3_50" is assigned to location or region, but does not exist in design
+    Warning (15706): Node "CLOCK4_50" is assigned to location or region, but does not exist in design
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:16
+Info (170189): Fitter placement preparation operations beginning
+Info (14951): The Fitter is using Advanced Physical Optimization.
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
+Info (170191): Fitter placement operations beginning
+Info (170137): Fitter placement was successful
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
+Info (170193): Fitter routing operations beginning
+Info (170195): Router estimated average interconnect usage is 0% of the available device resources
+    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X78_Y11 to location X89_Y22
+Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
+    Info (170201): Optimizations that may affect the design's routability were skipped
+    Info (170200): Optimizations that may affect the design's timing were skipped
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
+Info (11888): Total time spent on timing analysis during the Fitter is 0.36 seconds.
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:05
+Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
+Info (144001): Generated suppressed messages file C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.fit.smsg
+Info: Quartus Prime Fitter was successful. 0 errors, 25 warnings
+    Info: Peak virtual memory: 6607 megabytes
+    Info: Processing ended: Mon Apr 11 16:03:19 2022
+    Info: Elapsed time: 00:00:47
+    Info: Total CPU time (on all processors): 00:01:23
+Info: *******************************************************************
+Info: Running Quartus Prime Assembler
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Processing started: Mon Apr 11 16:03:21 2022
+Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off setup -c setup
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (115030): Assembler is generating device programming files
+Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4843 megabytes
+    Info: Processing ended: Mon Apr 11 16:03:31 2022
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:10
+Info (293026): Skipped module Power Analyzer due to the assignment FLOW_ENABLE_POWER_ANALYZER
+Info: *******************************************************************
+Info: Running Quartus Prime Timing Analyzer
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Processing started: Mon Apr 11 16:03:32 2022
+Info: Command: quartus_sta setup -c setup
+Info: qsta_default_script.tcl version: #1
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (332104): Reading SDC File: 'setup.SDC'
+Warning (332174): Ignored filter at setup.SDC(9): CLOCK2_50 could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 9
+Warning (332049): Ignored create_clock at setup.SDC(9): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 9
+    Info (332050): create_clock -period "50.000000 MHz" [get_ports CLOCK2_50] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 9
+Warning (332174): Ignored filter at setup.SDC(10): CLOCK3_50 could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 10
+Warning (332049): Ignored create_clock at setup.SDC(10): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 10
+    Info (332050): create_clock -period "50.000000 MHz" [get_ports CLOCK3_50] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 10
+Warning (332174): Ignored filter at setup.SDC(11): CLOCK4_50 could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 11
+Warning (332049): Ignored create_clock at setup.SDC(11): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 11
+    Info (332050): create_clock -period "50.000000 MHz" [get_ports CLOCK4_50] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 11
+Warning (332174): Ignored filter at setup.SDC(15): altera_reserved_tck could not be matched with a port or pin or register or keeper or net or combinational node or node File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 15
+Warning (332049): Ignored create_clock at setup.SDC(15): Argument <targets> is not an object ID File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 15
+    Info (332050): create_clock -name {altera_reserved_tck} -period 40 {altera_reserved_tck} File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 15
+Warning (332174): Ignored filter at setup.SDC(16): altera_reserved_tdi could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 16
+Warning (332174): Ignored filter at setup.SDC(16): altera_reserved_tck could not be matched with a clock File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 16
+Warning (332049): Ignored set_input_delay at setup.SDC(16): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 16
+    Info (332050): set_input_delay -clock altera_reserved_tck -clock_fall 3 [get_ports altera_reserved_tdi] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 16
+Warning (332049): Ignored set_input_delay at setup.SDC(16): Argument -clock is not an object ID File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 16
+Warning (332174): Ignored filter at setup.SDC(17): altera_reserved_tms could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 17
+Warning (332049): Ignored set_input_delay at setup.SDC(17): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 17
+    Info (332050): set_input_delay -clock altera_reserved_tck -clock_fall 3 [get_ports altera_reserved_tms] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 17
+Warning (332049): Ignored set_input_delay at setup.SDC(17): Argument -clock is not an object ID File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 17
+Warning (332174): Ignored filter at setup.SDC(18): altera_reserved_tdo could not be matched with a port File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 18
+Warning (332049): Ignored set_output_delay at setup.SDC(18): Argument <targets> is an empty collection File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 18
+    Info (332050): set_output_delay -clock altera_reserved_tck 3 [get_ports altera_reserved_tdo] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 18
+Warning (332049): Ignored set_output_delay at setup.SDC(18): Argument -clock is not an object ID File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.SDC Line: 18
+Info (332151): Clock uncertainty is not calculated until you update the timing netlist.
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info: Found TIMING_ANALYZER_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info: Analyzing Slow 1100mV 85C Model
+Info (332146): Worst-case setup slack is 17.034
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):    17.034               0.000 CLOCK_50
+Info (332146): Worst-case hold slack is 0.236
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.236               0.000 CLOCK_50
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 9.226
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):     9.226               0.000 CLOCK_50
+Info: Analyzing Slow 1100mV 0C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info (332146): Worst-case setup slack is 16.938
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):    16.938               0.000 CLOCK_50
+Info (332146): Worst-case hold slack is 0.222
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.222               0.000 CLOCK_50
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 9.284
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):     9.284               0.000 CLOCK_50
+Info: Analyzing Fast 1100mV 85C Model
+Info (334003): Started post-fitting delay annotation
+Info (334004): Delay annotation completed successfully
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info (332146): Worst-case setup slack is 18.412
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):    18.412               0.000 CLOCK_50
+Info (332146): Worst-case hold slack is 0.141
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.141               0.000 CLOCK_50
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 9.103
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):     9.103               0.000 CLOCK_50
+Info: Analyzing Fast 1100mV 0C Model
+Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Timing Analyzer to see clock uncertainties.
+Info (332146): Worst-case setup slack is 18.463
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):    18.463               0.000 CLOCK_50
+Info (332146): Worst-case hold slack is 0.130
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.130               0.000 CLOCK_50
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332146): Worst-case minimum pulse width slack is 9.066
+    Info (332119):     Slack       End Point TNS Clock
+    Info (332119): ========= =================== =====================
+    Info (332119):     9.066               0.000 CLOCK_50
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus Prime Timing Analyzer was successful. 0 errors, 19 warnings
+    Info: Peak virtual memory: 5126 megabytes
+    Info: Processing ended: Mon Apr 11 16:03:39 2022
+    Info: Elapsed time: 00:00:07
+    Info: Total CPU time (on all processors): 00:00:07
+Info: *******************************************************************
+Info: Running Quartus Prime EDA Netlist Writer
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Processing started: Mon Apr 11 16:03:40 2022
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off setup -c setup
+Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
+Info (204019): Generated file setup.svo in folder "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/simulation/modelsim/" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4724 megabytes
+    Info: Processing ended: Mon Apr 11 16:03:42 2022
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+Info: *******************************************************************
+Info: Running Quartus Prime Signal Tap
+    Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+    Info: Processing started: Mon Apr 11 16:03:43 2022
+Info: Command: quartus_stp -t prog.tcl compile setup setup
+Info: Quartus(args): compile setup setup
+Info (23030): Evaluation of Tcl script prog.tcl was successful
+Info: Quartus Prime Signal Tap was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4545 megabytes
+    Info: Processing ended: Mon Apr 11 16:03:49 2022
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:03
+Info (293000): Quartus Prime Full Compilation was successful. 0 errors, 49 warnings
+tcl>

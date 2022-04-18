@@ -1,0 +1,132 @@
+Restore Archived Project report for IT_HW_9
+Thu Mar 24 19:13:08 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Thu Mar 24 19:13:08 2022 ;
+; Revision Name                   ; IT_HW_9                               ;
+; Top-level Entity Name           ; IT_HW_9                               ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_9/submission/IT_HW_9.qar' into the 'C:\\Users\\idtti\\OneDrive\\Desktop\\ECEN_3763\\homework_wk_10/' directory
+Info: Generated report 'IT_HW_9.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 4821 megabytes
+    Info: Processing ended: Thu Mar 24 19:13:08 2022
+    Info: Elapsed time: 00:00:06
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++------------------------------------------------------------------------------------------------------+
+; Files Restored                                                                                       ;
++------------------------------------------------------------------------------------------------------+
+; File Name                                                                                            ;
++------------------------------------------------------------------------------------------------------+
+; qar_info.json                                                                                        ;
+; lab_9.tcl                                                                                            ;
+; quartus/HW_8.stp                                                                                     ;
+; quartus/HW_8_PD.qsys                                                                                 ;
+; quartus/HW_8_PD.sopcinfo                                                                             ;
+; quartus/IT_HW_9.SDC                                                                                  ;
+; quartus/IT_HW_9.qpf                                                                                  ;
+; quartus/IT_HW_9.qsf                                                                                  ;
+; quartus/PD_block/HW_8_PD.cmp                                                                         ;
+; quartus/PD_block/synthesis/HW_8_PD.debuginfo                                                         ;
+; quartus/PD_block/synthesis/HW_8_PD.qip                                                               ;
+; quartus/PD_block/synthesis/HW_8_PD.regmap                                                            ;
+; quartus/PD_block/synthesis/HW_8_PD.v                                                                 ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_master_0.v                                             ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_master_0_b2p_adapter.sv                                ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_master_0_p2b_adapter.sv                                ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_master_0_timing_adt.sv                                 ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_mm_interconnect_0.v                                    ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_mm_interconnect_0_avalon_st_adapter.v                  ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_mm_interconnect_0_cmd_demux.sv                         ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_mm_interconnect_0_cmd_mux.sv                           ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_mm_interconnect_0_router.sv                            ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_mm_interconnect_0_router_001.sv                        ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_mm_interconnect_0_rsp_demux.sv                         ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_mm_interconnect_0_rsp_mux.sv                           ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_pio_0.v                                                ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_pio_1.v                                                ;
+; quartus/PD_block/synthesis/submodules/HW_8_PD_pio_2.v                                                ;
+; quartus/PD_block/synthesis/submodules/altera_avalon_packets_to_master.v                              ;
+; quartus/PD_block/synthesis/submodules/altera_avalon_sc_fifo.v                                        ;
+; quartus/PD_block/synthesis/submodules/altera_avalon_st_bytes_to_packets.v                            ;
+; quartus/PD_block/synthesis/submodules/altera_avalon_st_clock_crosser.v                               ;
+; quartus/PD_block/synthesis/submodules/altera_avalon_st_idle_inserter.v                               ;
+; quartus/PD_block/synthesis/submodules/altera_avalon_st_idle_remover.v                                ;
+; quartus/PD_block/synthesis/submodules/altera_avalon_st_jtag_interface.sdc                            ;
+; quartus/PD_block/synthesis/submodules/altera_avalon_st_jtag_interface.v                              ;
+; quartus/PD_block/synthesis/submodules/altera_avalon_st_packets_to_bytes.v                            ;
+; quartus/PD_block/synthesis/submodules/altera_avalon_st_pipeline_base.v                               ;
+; quartus/PD_block/synthesis/submodules/altera_avalon_st_pipeline_stage.sv                             ;
+; quartus/PD_block/synthesis/submodules/altera_jtag_dc_streaming.v                                     ;
+; quartus/PD_block/synthesis/submodules/altera_jtag_sld_node.v                                         ;
+; quartus/PD_block/synthesis/submodules/altera_jtag_streaming.v                                        ;
+; quartus/PD_block/synthesis/submodules/altera_merlin_arbitrator.sv                                    ;
+; quartus/PD_block/synthesis/submodules/altera_merlin_burst_uncompressor.sv                            ;
+; quartus/PD_block/synthesis/submodules/altera_merlin_master_agent.sv                                  ;
+; quartus/PD_block/synthesis/submodules/altera_merlin_master_translator.sv                             ;
+; quartus/PD_block/synthesis/submodules/altera_merlin_reorder_memory.sv                                ;
+; quartus/PD_block/synthesis/submodules/altera_merlin_slave_agent.sv                                   ;
+; quartus/PD_block/synthesis/submodules/altera_merlin_slave_translator.sv                              ;
+; quartus/PD_block/synthesis/submodules/altera_merlin_traffic_limiter.sv                               ;
+; quartus/PD_block/synthesis/submodules/altera_reset_controller.sdc                                    ;
+; quartus/PD_block/synthesis/submodules/altera_reset_controller.v                                      ;
+; quartus/PD_block/synthesis/submodules/altera_reset_synchronizer.v                                    ;
+; quartus/PD_block/synthesis/submodules/altera_std_synchronizer_nocut.v                                ;
+; quartus/db/HW_8_auto_stripped.stp                                                                    ;
+; source/IT_HW_9.sv                                                                                    ;
+; quartus/assignment_defaults.qdf                                                                      ;
++------------------------------------------------------------------------------------------------------+
+
+
++--------------------+
+; Files Not Restored ;
++--------------------+
+; File Name          ;
++--------------------+
+
+

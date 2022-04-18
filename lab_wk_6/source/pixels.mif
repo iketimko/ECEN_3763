@@ -1,0 +1,75 @@
+% Initialize the file %
+DEPTH = 64;             % Number of addresses %
+WIDTH = 24;             % Number of data bits per word %
+ADDRESS_RADIX = OCT;    
+DATA_RADIX = HEX;
+
+% Begin the memory values %
+CONTENT
+
+BEGIN
+0 : 00F166; % green/blue %
+1 : FF2394; % Pink %
+2 : C1FF00; % citrus %
+3 : 00FF83; % aquamarine %
+4 : FF0027; % cherry %
+5 : 00F3FF; % blue %
+6 : 8000FF; % purple %
+7 : FF8700; % orange %
+10 : 4287f5; % light blue %
+11 : 60f542; % green %
+12 : 42f5ef; % tourquise %
+13 : 1004b8; % dark blue %
+14 : b8a604; % yellow %
+15 : b80704; % deep red %
+16 : f74abe; % pink %
+17 : 004c78; % dark blue %
+20 : 00F166; % green/blue %
+21 : FF2394; % Pink %
+22 : C1FF00; % citrus %
+23 : 00FF83; % aquamarine %
+24 : FF0027; % cherry %
+25 : 00F3FF; % blue %
+26 : 8000FF; % purple %
+27 : FF8700; % orange %
+30 : 4287f5; % light blue %
+31 : 60f542; % green %
+32 : 42f5ef; % tourquise %
+33 : 1004b8; % dark blue %
+34 : b8a604; % yellow %
+35 : b80704; % deep red %
+36 : f74abe; % pink %
+37 : 004c78; % dark blue %
+40 : 00F166; % green/blue %
+41 : FF2394; % Pink %
+42 : C1FF00; % citrus %
+43 : 00FF83; % aquamarine %
+44 : FF0027; % cherry %
+45 : 00F3FF; % blue %
+46 : 8000FF; % purple %
+47 : FF8700; % orange %
+50 : 4287f5; % light blue %
+51 : 60f542; % green %
+52 : 42f5ef; % tourquise %
+53 : 1004b8; % dark blue %
+54 : b8a604; % yellow %
+55 : b80704; % deep red %
+56 : f74abe; % pink %
+57 : 004c78; % dark blue %
+60 : 00F166; % green/blue %
+61 : FF2394; % Pink %
+62 : C1FF00; % citrus %
+63 : 00FF83; % aquamarine %
+64 : FF0027; % cherry %
+65 : 00F3FF; % blue %
+66 : 8000FF; % purple %
+67 : FF8700; % orange %
+70 : 4287f5; % light blue %
+71 : 60f542; % green %
+72 : 42f5ef; % tourquise %
+73 : 1004b8; % dark blue %
+74 : b8a604; % yellow %
+75 : b80704; % deep red %
+76 : f74abe; % pink %
+77 : 004c78; % dark blue %
+END;

@@ -1,0 +1,82 @@
+tcl> source script1.tcl
+Info: Flow Summary
+Info: Flow Settings
+Info: Flow Non-Default Global Settings
+Info: Flow Elapsed Time
+Info: Flow OS Summary
+Info: Analysis & Synthesis||Analysis & Synthesis Summary
+Info: Analysis & Synthesis||Settings||Analysis & Synthesis Settings
+Info: Analysis & Synthesis||Parallel Compilation
+Info: Analysis & Synthesis||Analysis & Synthesis Source Files Read
+Info: Analysis & Synthesis||Analysis & Synthesis Resource Usage Summary
+Info: Analysis & Synthesis||Analysis & Synthesis Resource Utilization by Entity
+Info: Analysis & Synthesis||Analysis & Synthesis Optimization Results||Register Statistics||General Register Statistics
+Info: Analysis & Synthesis||Analysis & Synthesis Optimization Results||Multiplexer Statistics||Multiplexer Restructuring Statistics (Restructuring Performed)
+Info: Analysis & Synthesis||Post-Synthesis Netlist Statistics for Top Partition
+Info: Analysis & Synthesis||Elapsed Time Per Partition
+Info: Fitter||Fitter Summary
+Info: Fitter||Fitter Settings
+Info: Fitter||Parallel Compilation
+Info: Fitter||Fitter Netlist Optimizations
+Info: Fitter||Ignored Assignments
+Info: Fitter||Fitter Incremental Compilation Section||Incremental Compilation Preservation Summary
+Info: Fitter||Fitter Incremental Compilation Section||Incremental Compilation Partition Settings
+Info: Fitter||Fitter Incremental Compilation Section||Incremental Compilation Placement Preservation
+Info: Fitter||Resource Section||Fitter Resource Usage Summary
+Info: Fitter||Resource Section||Fitter Partition Statistics
+Info: Fitter||Resource Section||Input Pins
+Info: Fitter||Resource Section||Output Pins
+Info: Fitter||Resource Section||I/O Bank Usage
+Info: Fitter||Resource Section||All Package Pins
+Info: Fitter||Resource Section||I/O Standards Section||I/O Assignment Warnings
+Info: Fitter||Resource Section||Fitter Resource Utilization by Entity
+Info: Fitter||Resource Section||Delay Chain Summary
+Info: Fitter||Resource Section||Pad To Core Delay Chain Fanout
+Info: Fitter||Resource Section||Control Signals
+Info: Fitter||Resource Section||Global & Other Fast Signals
+Info: Fitter||Resource Section||Logic and Routing Section||Routing Usage Summary
+Info: Fitter||I/O Rules Section||I/O Rules Summary
+Info: Fitter||I/O Rules Section||I/O Rules Details
+Info: Fitter||I/O Rules Section||I/O Rules Matrix
+Info: Fitter||Fitter Device Options
+Info: Fitter||Operating Settings and Conditions
+Info: Assembler||Assembler Summary
+Info: Assembler||Assembler Settings
+Info: Assembler||Assembler Generated Files
+Info: Assembler||Assembler Device Options: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/homework_wk_12/quartus/setup.sof
+Info: Timing Analyzer||Timing Analyzer Summary
+Info: Timing Analyzer||Parallel Compilation
+Info: Timing Analyzer||SDC File List
+Info: Timing Analyzer||Clocks
+Info: Timing Analyzer||Slow 1100mV 85C Model||Slow 1100mV 85C Model Fmax Summary
+Info: Timing Analyzer||Slow 1100mV 85C Model||Slow 1100mV 85C Model Setup Summary
+Info: Timing Analyzer||Slow 1100mV 85C Model||Slow 1100mV 85C Model Hold Summary
+Info: Timing Analyzer||Slow 1100mV 85C Model||Slow 1100mV 85C Model Minimum Pulse Width Summary
+Info: Timing Analyzer||Slow 1100mV 0C Model||Slow 1100mV 0C Model Fmax Summary
+Info: Timing Analyzer||Slow 1100mV 0C Model||Slow 1100mV 0C Model Setup Summary
+Info: Timing Analyzer||Slow 1100mV 0C Model||Slow 1100mV 0C Model Hold Summary
+Info: Timing Analyzer||Slow 1100mV 0C Model||Slow 1100mV 0C Model Minimum Pulse Width Summary
+Info: Timing Analyzer||Fast 1100mV 85C Model||Fast 1100mV 85C Model Setup Summary
+Info: Timing Analyzer||Fast 1100mV 85C Model||Fast 1100mV 85C Model Hold Summary
+Info: Timing Analyzer||Fast 1100mV 85C Model||Fast 1100mV 85C Model Minimum Pulse Width Summary
+Info: Timing Analyzer||Fast 1100mV 0C Model||Fast 1100mV 0C Model Setup Summary
+Info: Timing Analyzer||Fast 1100mV 0C Model||Fast 1100mV 0C Model Hold Summary
+Info: Timing Analyzer||Fast 1100mV 0C Model||Fast 1100mV 0C Model Minimum Pulse Width Summary
+Info: Timing Analyzer||Multicorner Timing Analysis Summary
+Info: Timing Analyzer||Advanced I/O Timing||Board Trace Model Assignments
+Info: Timing Analyzer||Advanced I/O Timing||Input Transition Times
+Info: Timing Analyzer||Advanced I/O Timing||Signal Integrity Metrics||Signal Integrity Metrics (Slow 1100mv 0c Model)
+Info: Timing Analyzer||Advanced I/O Timing||Signal Integrity Metrics||Signal Integrity Metrics (Slow 1100mv 85c Model)
+Info: Timing Analyzer||Advanced I/O Timing||Signal Integrity Metrics||Signal Integrity Metrics (Fast 1100mv 0c Model)
+Info: Timing Analyzer||Advanced I/O Timing||Signal Integrity Metrics||Signal Integrity Metrics (Fast 1100mv 85c Model)
+Info: Timing Analyzer||Clock Transfers||Setup Transfers
+Info: Timing Analyzer||Clock Transfers||Hold Transfers
+Info: Timing Analyzer||Unconstrained Paths||Unconstrained Paths Summary
+Info: Timing Analyzer||Unconstrained Paths||Clock Status Summary
+Info: Timing Analyzer||Unconstrained Paths||Setup Analysis||Unconstrained Input Ports
+Info: Timing Analyzer||Unconstrained Paths||Setup Analysis||Unconstrained Output Ports
+Info: Timing Analyzer||Unconstrained Paths||Hold Analysis||Unconstrained Input Ports
+Info: Timing Analyzer||Unconstrained Paths||Hold Analysis||Unconstrained Output Ports
+Info: EDA Netlist Writer||EDA Netlist Writer Summary
+Info: EDA Netlist Writer||Simulation||Simulation Settings
+Info: EDA Netlist Writer||Simulation||Simulation Generated Files

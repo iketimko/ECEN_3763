@@ -1,0 +1,15 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate C:\Users\idtti\OneDrive\Desktop\ECEN_3763\lab_wk_3\quartus\RESET.qsys --synthesis=VERILOG --output-directory=C:\Users\idtti\OneDrive\Desktop\ECEN_3763\lab_wk_3\quartus\RESET\synthesis --family="Cyclone V" --part=5CSXFC6D6F31C6
+Progress: Loading quartus/RESET.qsys
+Progress: Reading input file
+Progress: Adding in_system_sources_probes_0 [altera_in_system_sources_probes 20.1]
+Progress: Parameterizing module in_system_sources_probes_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: RESET: Generating RESET "RESET" for QUARTUS_SYNTH
+Info: in_system_sources_probes_0: "RESET" instantiated altera_in_system_sources_probes "in_system_sources_probes_0"
+Info: RESET: Done "RESET" with 2 modules, 2 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis

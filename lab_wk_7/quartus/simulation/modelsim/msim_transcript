@@ -1,0 +1,1160 @@
+# Reading pref.tcl
+# do IT_LAB_7_run_msim_rtl_verilog.do
+# if ![file isdirectory IT_LAB_7_iputf_libs] {
+# 	file mkdir IT_LAB_7_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:42 on Mar 02,2022
+# vlog -reportprogress 300 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo 
+# -- Compiling module PLL
+# 
+# Top level modules:
+# 	PLL
+# End time: 17:40:42 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/IT_LAB_7.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:43 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/IT_LAB_7.v 
+# -- Compiling module IT_LAB_7
+# 
+# Top level modules:
+# 	IT_LAB_7
+# End time: 17:40:43 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:43 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v 
+# -- Compiling module ROM_640p
+# 
+# Top level modules:
+# 	ROM_640p
+# End time: 17:40:43 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/reset.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:43 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/reset.sv 
+# -- Compiling module reset
+# 
+# Top level modules:
+# 	reset
+# End time: 17:40:43 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:43 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv 
+# -- Compiling module pixelgen
+# 
+# Top level modules:
+# 	pixelgen
+# End time: 17:40:44 on Mar 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:44 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/counter.sv 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 17:40:44 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/timer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:44 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/timer.sv 
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	timer
+# End time: 17:40:44 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:44 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:40:44 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/clock.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:44 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/clock.sv 
+# -- Compiling module clock
+# 
+# Top level modules:
+# 	clock
+# End time: 17:40:44 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:40:44 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:40:45 on Mar 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 17:40:45 on Mar 02,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.top
+# Loading work.clock
+# Loading work.PLL
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.reset
+# Loading work.timer
+# Loading work.counter
+# Loading work.pixelgen
+# Loading work.ROM_640p
+# Loading altera_mf_ver.altsyncram
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u1/u1/pll_altera_pll_altera_pll_i_639 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (19) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u3/u1 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (24) for port 'q'. The port definition is at: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u3/u1 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv Line: 27
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 13469.464723 to 13469.387755
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 74.242 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 6734.693878
+# Info: output_clock_low_period = 6734.693878
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv(33)
+#    Time: 17000100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv line 33
+# 
+# run -all
+do IT_LAB_7_run_msim_rtl_verilog.do
+# if ![file isdirectory IT_LAB_7_iputf_libs] {
+# 	file mkdir IT_LAB_7_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:09 on Mar 02,2022
+# vlog -reportprogress 300 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo 
+# -- Compiling module PLL
+# 
+# Top level modules:
+# 	PLL
+# End time: 17:43:09 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/IT_LAB_7.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:09 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/IT_LAB_7.v 
+# -- Compiling module IT_LAB_7
+# 
+# Top level modules:
+# 	IT_LAB_7
+# End time: 17:43:09 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:09 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v 
+# -- Compiling module ROM_640p
+# 
+# Top level modules:
+# 	ROM_640p
+# End time: 17:43:09 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/reset.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:09 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/reset.sv 
+# -- Compiling module reset
+# 
+# Top level modules:
+# 	reset
+# End time: 17:43:09 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:10 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv 
+# -- Compiling module pixelgen
+# 
+# Top level modules:
+# 	pixelgen
+# End time: 17:43:10 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:10 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/counter.sv 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 17:43:10 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/timer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:10 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/timer.sv 
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	timer
+# End time: 17:43:10 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:10 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:43:10 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/clock.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:10 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/clock.sv 
+# -- Compiling module clock
+# 
+# Top level modules:
+# 	clock
+# End time: 17:43:10 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:43:10 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:43:10 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# End time: 17:43:12 on Mar 02,2022, Elapsed time: 0:02:27
+# Errors: 0, Warnings: 24
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 17:43:12 on Mar 02,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.top
+# Loading work.clock
+# Loading work.PLL
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.reset
+# Loading work.timer
+# Loading work.counter
+# Loading work.pixelgen
+# Loading work.ROM_640p
+# Loading altera_mf_ver.altsyncram
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u1/u1/pll_altera_pll_altera_pll_i_639 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (19) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u3/u1 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv Line: 27
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (24) for port 'q'. The port definition is at: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v(43).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u3/u1 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv Line: 27
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb/CLOCK_50
+# add wave -noupdate /tb/VGA_CLK
+# add wave -noupdate -radix hexadecimal /tb/VGA_R
+# add wave -noupdate -radix hexadecimal /tb/VGA_G
+# add wave -noupdate -radix hexadecimal /tb/VGA_B
+# add wave -noupdate -radix hexadecimal /tb/u0/u3/VGA_RGB
+# add wave -noupdate -radix decimal /tb/u0/u3/reg_add
+# add wave -noupdate -radix decimal /tb/u0/u3/H_pos
+# add wave -noupdate -radix decimal /tb/u0/u3/V_pos
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {16999994898 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {16999970624 ps} {17000106810 ps}
+# run -all
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 13469.464723 to 13469.387755
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 74.242 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 6734.693878
+# Info: output_clock_low_period = 6734.693878
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv(33)
+#    Time: 17000100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv line 33
+do IT_LAB_7_run_msim_rtl_verilog.do
+# if ![file isdirectory IT_LAB_7_iputf_libs] {
+# 	file mkdir IT_LAB_7_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/simulation/modelsim/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/simulation/modelsim/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:27 on Mar 02,2022
+# vlog -reportprogress 300 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo 
+# -- Compiling module PLL
+# 
+# Top level modules:
+# 	PLL
+# End time: 17:58:27 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/IT_LAB_7.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:27 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/IT_LAB_7.v 
+# -- Compiling module IT_LAB_7
+# 
+# Top level modules:
+# 	IT_LAB_7
+# End time: 17:58:27 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:27 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v 
+# -- Compiling module ROM_640p
+# 
+# Top level modules:
+# 	ROM_640p
+# End time: 17:58:27 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/reset.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:27 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/reset.sv 
+# -- Compiling module reset
+# 
+# Top level modules:
+# 	reset
+# End time: 17:58:28 on Mar 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:28 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv 
+# -- Compiling module pixelgen
+# 
+# Top level modules:
+# 	pixelgen
+# End time: 17:58:28 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:28 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/counter.sv 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 17:58:28 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/timer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:28 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/timer.sv 
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	timer
+# End time: 17:58:28 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:28 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 17:58:28 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/clock.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:28 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/clock.sv 
+# -- Compiling module clock
+# 
+# Top level modules:
+# 	clock
+# End time: 17:58:28 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:58:28 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:58:28 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# End time: 17:58:31 on Mar 02,2022, Elapsed time: 0:15:19
+# Errors: 0, Warnings: 24
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 17:58:31 on Mar 02,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.top
+# Loading work.clock
+# Loading work.PLL
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.reset
+# Loading work.timer
+# Loading work.counter
+# Loading work.pixelgen
+# Loading work.ROM_640p
+# Loading altera_mf_ver.altsyncram
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u1/u1/pll_altera_pll_altera_pll_i_639 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (19) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u3/u1 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv Line: 27
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb/CLOCK_50
+# add wave -noupdate /tb/VGA_CLK
+# add wave -noupdate -radix hexadecimal /tb/VGA_R
+# add wave -noupdate -radix hexadecimal /tb/VGA_G
+# add wave -noupdate -radix hexadecimal /tb/VGA_B
+# add wave -noupdate -radix hexadecimal /tb/u0/u3/VGA_RGB
+# add wave -noupdate -radix decimal /tb/u0/u3/reg_add
+# add wave -noupdate -radix decimal /tb/u0/u3/H_pos
+# add wave -noupdate -radix decimal /tb/u0/u3/V_pos
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {16999994898 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {16999970624 ps} {17000106810 ps}
+# run -all
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 13469.464723 to 13469.387755
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 74.242 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 6734.693878
+# Info: output_clock_low_period = 6734.693878
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv(33)
+#    Time: 17000100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv line 33
+do IT_LAB_7_run_msim_rtl_verilog.do
+# if ![file isdirectory IT_LAB_7_iputf_libs] {
+# 	file mkdir IT_LAB_7_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:37 on Mar 02,2022
+# vlog -reportprogress 300 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo 
+# -- Compiling module PLL
+# 
+# Top level modules:
+# 	PLL
+# End time: 21:06:38 on Mar 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/IT_LAB_7.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:38 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/IT_LAB_7.v 
+# -- Compiling module IT_LAB_7
+# 
+# Top level modules:
+# 	IT_LAB_7
+# End time: 21:06:38 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:38 on Mar 02,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v 
+# -- Compiling module ROM_640p
+# 
+# Top level modules:
+# 	ROM_640p
+# End time: 21:06:38 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/reset.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:38 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/reset.sv 
+# -- Compiling module reset
+# 
+# Top level modules:
+# 	reset
+# End time: 21:06:38 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:38 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv 
+# -- Compiling module pixelgen
+# 
+# Top level modules:
+# 	pixelgen
+# End time: 21:06:38 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:38 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/counter.sv 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 21:06:38 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/timer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:38 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/timer.sv 
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	timer
+# End time: 21:06:38 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:38 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 21:06:38 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/clock.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:38 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/clock.sv 
+# -- Compiling module clock
+# 
+# Top level modules:
+# 	clock
+# End time: 21:06:38 on Mar 02,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:06:38 on Mar 02,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 21:06:39 on Mar 02,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# End time: 21:06:41 on Mar 02,2022, Elapsed time: 3:08:10
+# Errors: 0, Warnings: 23
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 21:06:41 on Mar 02,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.top
+# Loading work.clock
+# Loading work.PLL
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.reset
+# Loading work.timer
+# Loading work.counter
+# Loading work.pixelgen
+# Loading work.ROM_640p
+# Loading altera_mf_ver.altsyncram
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u1/u1/pll_altera_pll_altera_pll_i_639 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (19) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u3/u1 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv Line: 27
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb/CLOCK_50
+# add wave -noupdate /tb/VGA_CLK
+# add wave -noupdate -radix hexadecimal /tb/VGA_R
+# add wave -noupdate -radix hexadecimal /tb/VGA_G
+# add wave -noupdate -radix hexadecimal /tb/VGA_B
+# add wave -noupdate -radix hexadecimal /tb/u0/u3/VGA_RGB
+# add wave -noupdate -radix decimal /tb/u0/u3/reg_add
+# add wave -noupdate -radix decimal /tb/u0/u3/H_pos
+# add wave -noupdate -radix decimal /tb/u0/u3/V_pos
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {16999994898 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {16999970624 ps} {17000106810 ps}
+# run -all
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 13469.464723 to 13469.387755
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 74.242 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 6734.693878
+# Info: output_clock_low_period = 6734.693878
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv(33)
+#    Time: 17000100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv line 33
+do IT_LAB_7_run_msim_rtl_verilog.do
+# if ![file isdirectory IT_LAB_7_iputf_libs] {
+# 	file mkdir IT_LAB_7_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:54 on Mar 03,2022
+# vlog -reportprogress 300 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo 
+# -- Compiling module PLL
+# 
+# Top level modules:
+# 	PLL
+# End time: 12:12:55 on Mar 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/IT_LAB_7.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:55 on Mar 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/IT_LAB_7.v 
+# -- Compiling module IT_LAB_7
+# 
+# Top level modules:
+# 	IT_LAB_7
+# End time: 12:12:55 on Mar 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:55 on Mar 03,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v 
+# -- Compiling module ROM_640p
+# 
+# Top level modules:
+# 	ROM_640p
+# End time: 12:12:55 on Mar 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/reset.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:55 on Mar 03,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/reset.sv 
+# -- Compiling module reset
+# 
+# Top level modules:
+# 	reset
+# End time: 12:12:56 on Mar 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:56 on Mar 03,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv 
+# -- Compiling module pixelgen
+# 
+# Top level modules:
+# 	pixelgen
+# End time: 12:12:56 on Mar 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/counter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:56 on Mar 03,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/counter.sv 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 12:12:56 on Mar 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/timer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:57 on Mar 03,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/timer.sv 
+# -- Compiling module timer
+# 
+# Top level modules:
+# 	timer
+# End time: 12:12:57 on Mar 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:57 on Mar 03,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/top.sv 
+# -- Compiling module top
+# 
+# Top level modules:
+# 	top
+# End time: 12:12:57 on Mar 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/clock.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:57 on Mar 03,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/clock.sv 
+# -- Compiling module clock
+# 
+# Top level modules:
+# 	clock
+# End time: 12:12:57 on Mar 03,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:12:57 on Mar 03,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 12:12:58 on Mar 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# End time: 12:13:04 on Mar 03,2022, Elapsed time: 15:06:23
+# Errors: 0, Warnings: 23
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 12:13:04 on Mar 03,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.top
+# Loading work.clock
+# Loading work.PLL
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.reset
+# Loading work.timer
+# Loading work.counter
+# Loading work.pixelgen
+# Loading work.ROM_640p
+# Loading altera_mf_ver.altsyncram
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u1/u1/pll_altera_pll_altera_pll_i_639 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (19) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u3/u1 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv Line: 27
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# do wave.do
+# onerror {resume}
+# quietly WaveActivateNextPane {} 0
+# add wave -noupdate /tb/CLOCK_50
+# add wave -noupdate /tb/VGA_CLK
+# add wave -noupdate -radix hexadecimal /tb/VGA_R
+# add wave -noupdate -radix hexadecimal /tb/VGA_G
+# add wave -noupdate -radix hexadecimal /tb/VGA_B
+# add wave -noupdate -radix hexadecimal /tb/u0/u3/VGA_RGB
+# add wave -noupdate -radix decimal /tb/u0/u3/reg_add
+# add wave -noupdate -radix decimal /tb/u0/u3/H_pos
+# add wave -noupdate -radix decimal /tb/u0/u3/V_pos
+# TreeUpdate [SetDefaultTree]
+# WaveRestoreCursors {{Cursor 1} {16999994898 ps} 0}
+# quietly wave cursor active 1
+# configure wave -namecolwidth 150
+# configure wave -valuecolwidth 100
+# configure wave -justifyvalue left
+# configure wave -signalnamewidth 0
+# configure wave -snapdistance 10
+# configure wave -datasetprefix 0
+# configure wave -rowmargin 4
+# configure wave -childrowmargin 2
+# configure wave -gridoffset 0
+# configure wave -gridperiod 1
+# configure wave -griddelta 40
+# configure wave -timeline 0
+# configure wave -timelineunits ns
+# update
+# WaveRestoreZoom {16999970624 ps} {17000106810 ps}
+# run -all
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 13469.464723 to 13469.387755
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 74.242 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 6734.693878
+# Info: output_clock_low_period = 6734.693878
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv(33)
+#    Time: 17000100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv line 33
+add wave -position 12  sim:/tb/u0/u3/valid_video
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/simulation/modelsim/wave.do
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u1/u1/pll_altera_pll_altera_pll_i_639 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/PLL_quartus_files/PLL_sim/PLL.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (19) does not match connection size (32) for port 'address'. The port definition is at: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/ROM_640p.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /tb/u0/u3/u1 File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/source/pixelgen.sv Line: 27
+run -a
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 13469.464723 to 13469.387755
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.u0.u1.u1.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 74.242 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 6734.693878
+# Info: output_clock_low_period = 6734.693878
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv(33)
+#    Time: 17000100 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_7/quartus/../source/tb.sv line 33
+# End time: 12:07:06 on Mar 04,2022, Elapsed time: 23:54:02
+# Errors: 0, Warnings: 23

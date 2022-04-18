@@ -1,0 +1,62 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : IKES-LAPTOP
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : hsd1.co.comcast.net
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : C0-3C-59-88-B2-39
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 10:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter #2
+   Physical Address. . . . . . . . . : C2-3C-59-88-B2-38
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . : hsd1.co.comcast.net
+   Description . . . . . . . . . . . : Intel(R) Wi-Fi 6 AX201 160MHz
+   Physical Address. . . . . . . . . : C0-3C-59-88-B2-38
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : 2601:281:8000:14c0::78a4(Preferred) 
+   Lease Obtained. . . . . . . . . . : Monday, January 10, 2022 10:37:46 AM
+   Lease Expires . . . . . . . . . . : Monday, January 17, 2022 10:37:45 AM
+   IPv6 Address. . . . . . . . . . . : 2601:281:8000:14c0:90cf:17f7:f8a7:8a7b(Preferred) 
+   Temporary IPv6 Address. . . . . . : 2601:281:8000:14c0:8cc4:139a:8c4a:6c93(Preferred) 
+   Link-local IPv6 Address . . . . . : fe80::90cf:17f7:f8a7:8a7b%10(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 10.0.0.251(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Monday, January 10, 2022 10:37:47 AM
+   Lease Expires . . . . . . . . . . : Wednesday, January 12, 2022 10:37:47 AM
+   Default Gateway . . . . . . . . . : fe80::7254:25ff:fec4:2a92%10
+                                       10.0.0.1
+   DHCP Server . . . . . . . . . . . : 10.0.0.1
+   DHCPv6 IAID . . . . . . . . . . . : 113261657
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-29-6A-75-1A-C0-3C-59-88-B2-38
+   DNS Servers . . . . . . . . . . . : 75.75.75.75
+                                       75.75.76.76
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+Ethernet adapter Bluetooth Network Connection:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Bluetooth Device (Personal Area Network)
+   Physical Address. . . . . . . . . : C0-3C-59-88-B2-3C
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes

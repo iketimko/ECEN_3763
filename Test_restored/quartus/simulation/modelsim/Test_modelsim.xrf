@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/idtti/OneDrive/Desktop/ECEN_3763/Test_restored/source/Test.sv
+source_file = 1, C:/Users/idtti/OneDrive/Desktop/ECEN_3763/Test_restored/source/tb.sv
+source_file = 1, C:/Users/idtti/OneDrive/Desktop/ECEN_3763/Test_restored/quartus/Test.SDC
+source_file = 1, C:/Users/idtti/OneDrive/Desktop/ECEN_3763/Test_restored/quartus/db/Test.cbx.xml
+design_name = Test
+instance = comp, \LEDR[0]~output , LEDR[0]~output, Test, 1
+instance = comp, \KEY[0]~input , KEY[0]~input, Test, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Test, 1

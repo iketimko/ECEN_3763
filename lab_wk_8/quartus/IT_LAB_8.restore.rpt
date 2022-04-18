@@ -1,0 +1,144 @@
+Restore Archived Project report for IT_LAB_8
+Fri Mar 11 18:23:01 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Restore Archived Project Summary
+  3. Restore Archived Project Messages
+  4. Files Restored
+  5. Files Not Restored
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------+
+; Restore Archived Project Summary                                        ;
++---------------------------------+---------------------------------------+
+; Restore Archived Project Status ; Successful - Fri Mar 11 18:23:01 2022 ;
+; Revision Name                   ; IT_LAB_8                              ;
+; Top-level Entity Name           ; IT_LAB_8                              ;
+; Family                          ; Cyclone V                             ;
++---------------------------------+---------------------------------------+
+
+
++-----------------------------------+
+; Restore Archived Project Messages ;
++-----------------------------------+
+Info: Successfully restored 'C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_8/submission/IT_LAB_8.qar' into the 'C:\\Users\\idtti\\OneDrive\\Desktop\\ECEN_3763\\lab_wk_8/' directory
+Info: Generated report 'IT_LAB_8.restore.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 69 warnings
+    Info: Peak virtual memory: 4827 megabytes
+    Info: Processing ended: Fri Mar 11 18:23:01 2022
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++----------------+
+; Files Restored ;
++----------------+
+; File Name      ;
++----------------+
+; qar_info.json  ;
++----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Files Not Restored                                                                                                            ;
++-------------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                                     ;
++-------------------------------------------------------------------------------------------------------------------------------+
+; quartus/IT_LAB_8.SDC                                                                                                          ;
+; quartus/IT_LAB_8.qpf                                                                                                          ;
+; quartus/IT_LAB_8.qsf                                                                                                          ;
+; quartus/IT_LAB_8_assignment_defaults.qdf                                                                                      ;
+; quartus/PLATFORM_DES_LAB_8.qsys                                                                                               ;
+; quartus/PLATFORM_DES_LAB_8.sopcinfo                                                                                           ;
+; quartus/PLATFORM_DES_LAB_8/PLATFORM_DES_LAB_8.cmp                                                                             ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/PLATFORM_DES_LAB_8.debuginfo                                                             ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/PLATFORM_DES_LAB_8.qip                                                                   ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/PLATFORM_DES_LAB_8.regmap                                                                ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/PLATFORM_DES_LAB_8.v                                                                     ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_master_0.v                                                 ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_master_0_b2p_adapter.sv                                    ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_master_0_p2b_adapter.sv                                    ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_master_0_timing_adt.sv                                     ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0.v                                        ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0_avalon_st_adapter.v                      ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0_avalon_st_adapter_001.v                  ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0_avalon_st_adapter_001_error_adapter_0.sv ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv     ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0_cmd_demux.sv                             ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0_cmd_mux.sv                               ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0_router.sv                                ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0_router_001.sv                            ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0_router_002.sv                            ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0_rsp_demux.sv                             ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_mm_interconnect_0_rsp_mux.sv                               ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_new_sdram_controller_0.v                                   ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_pio_0.v                                                    ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_pll_0.qip                                                  ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/PLATFORM_DES_LAB_8_pll_0.v                                                    ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_avalon_packets_to_master.v                                             ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_avalon_sc_fifo.v                                                       ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_avalon_st_bytes_to_packets.v                                           ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_avalon_st_clock_crosser.v                                              ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_avalon_st_idle_inserter.v                                              ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_avalon_st_idle_remover.v                                               ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_avalon_st_jtag_interface.sdc                                           ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_avalon_st_jtag_interface.v                                             ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_avalon_st_packets_to_bytes.v                                           ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_avalon_st_pipeline_base.v                                              ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_avalon_st_pipeline_stage.sv                                            ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_default_burst_converter.sv                                             ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_incr_burst_converter.sv                                                ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_jtag_dc_streaming.v                                                    ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_jtag_sld_node.v                                                        ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_jtag_streaming.v                                                       ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_address_alignment.sv                                            ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_arbitrator.sv                                                   ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_burst_adapter.sv                                                ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv                                           ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_burst_adapter_new.sv                                            ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv                                         ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_burst_uncompressor.sv                                           ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_master_agent.sv                                                 ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_master_translator.sv                                            ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_reorder_memory.sv                                               ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_slave_agent.sv                                                  ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_slave_translator.sv                                             ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_traffic_limiter.sv                                              ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_merlin_width_adapter.sv                                                ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_reset_controller.sdc                                                   ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_reset_controller.v                                                     ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_reset_synchronizer.v                                                   ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_std_synchronizer_nocut.v                                               ;
+; quartus/PLATFORM_DES_LAB_8/synthesis/submodules/altera_wrap_burst_converter.sv                                                ;
+; source/IT_LAB_8.sv                                                                                                            ;
+; source/lab_8.tcl                                                                                                              ;
++-------------------------------------------------------------------------------------------------------------------------------+
+
+

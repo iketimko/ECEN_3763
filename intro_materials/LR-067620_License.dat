@@ -1,0 +1,125 @@
+﻿# Intel Corporation Software and/or Intellectual Property License File
+# Issued 10 January 2022
+# Upgrade to these products will no longer be available after the Maintenance Expiration  
+# date unless licenses are renewed.  
+# Fixed Node License
+# Primary Machine Name-IKES-LAPTOP
+# Primary Machine ID-NIC ID C03C5988B239
+# Companion ID-N/A
+# Companion ID 2-N/A
+# Product License Summary:
+# Quartus II SE Fixed for University Program, 1 Seat(s)
+# - Maintenance Expiration of 2031.10
+# - License Expires 10-Oct-2031
+################################################################################ 
+# FEATURE START 
+# The following is a license file for the Mentor Graphics AXI3 Inline Monitor BFM 
+# Number of seat licenses is 1 
+# License Expires 10-Jan-2023 
+INCREMENT mgcvipae mgcld 2023.01 10-jan-2023 uncounted \
+  0F34D0FA4F0FA071F35E \
+    VENDOR_STRING=69C9E5BC HOSTID=c03c5988b239 ISSUER=Intel SN=178464233 \
+    SIGN2="0400 B1E8 9661 BF20 CB60 018E 1663 415D 60A4 9E56 1D06 FCF7 \
+    FB56 A608 62B2 070F 1181 D27E 858D 750E 9BBA C200 B74C 0FCE E002 AAC9 \
+    CBFA 6993 28C6 B1BC"
+# FEATURE END 
+################################################################################
+# FEATURE START 
+# The following is a license file for the Mentor Graphics AXI3 Master BFM 
+# Number of seat licenses is 1 
+# License Expires 10-Jan-2023 
+INCREMENT mgcvipaeaxi mgcld 2023.01 10-jan-2023 uncounted \
+  2FB4806AC9B716865E9B \
+    VENDOR_STRING=3DDB5FD0 HOSTID=c03c5988b239 ISSUER=Intel SN=178464234 \
+    SIGN2="0122 3ECC 7B22 78F8 1EE0 BDC6 D06F A43A F333 905A 6B08 6DBB \
+    4F1B 9F76 5DDF 14D9 6291 FDF1 7BF9 1D58 615B F9C2 615A 5BF8 7AA9 924C \
+    9ADC 4A47 C29B A586"
+# FEATURE END 
+################################################################################
+# FEATURE START 
+# The following is a license file for the Mentor Graphics AXI3 Slave BFM 
+# Number of seat licenses is 1 
+# License Expires 10-Jan-2023 
+INCREMENT mgcvipaeaxi mgcld 2023.01 10-jan-2023 uncounted \
+  2FB4806AC9B716875E9A \
+    VENDOR_STRING=3DDB5FD0 HOSTID=c03c5988b239 ISSUER=Intel SN=178464235 \
+    SIGN2="1966 8AA4 259E 4F45 E61E 223B EDC1 93F1 8E62 FC8E EDD9 3DB3 \
+    A1B9 CB9C 35F6 10AE 8DA3 89D5 4A0B 8D61 8DAF CE68 D88C 1610 7643 BD50 \
+    0924 37D8 7B4D C104"
+# FEATURE END 
+################################################################################
+# FEATURE START 
+# The following is a license file for the Mentor Graphics AXI4 
+# Number of seat licenses is 1 
+# License Expires 10-Jan-2023 
+INCREMENT mgcvipaeaxi4 mgcld 2023.01 10-jan-2023 uncounted \
+  7F24400A48E1821DB2B6 \
+    VENDOR_STRING=63146C65 HOSTID=c03c5988b239 ISSUER=Intel SN=178464236 \
+    SIGN2="16AB E172 0856 0D19 D974 0E43 83D7 539B 7B44 22C7 0FFE B37C \
+    61E8 CA3C B3A3 013A 015D 08A7 740A E967 43E1 3417 BAFC 17F3 C387 47BB \
+    4E5C 9641 09EA 7AE0"
+# FEATURE END 
+################################################################################
+# FEATURE START 
+# The following is a license file for the IP Base Suite Package part number for IP  
+# Base Suite (NCO, FFT, FIR Compiler II)  
+# Number of seat licenses is 1 
+# License Expires 10-Oct-2031 
+PACKAGE ip_base alterad COMPONENTS="6AF7_0034 6AF7_00D8 6AF7_0014" \
+	OPTIONS=SUITE SIGN="083B D2F9 1AF0 91F4 D967 A1CF 3BB0 B7FA \
+	CF82 D86D EB78 BECB 6859 3628 C2C5 1863 046E 91B2 9981 CFFD \
+	305F B64F 6FC5 C413 1A57 0E72 54C5 75AF 2B2D 20B7"
+INCREMENT ip_base alterad 2031.10 10-oct-2031 uncounted FBB50B946C74 \
+	VENDOR_STRING="iiiiiiiihdLkhIIIIIIIIUPDuiaaaaaaaa11X38DDDDDDDDpjz5cddddddddtmGzGJJJJJJJJbqIh0uuuuuuuugYYWiVVVVVVVVbp0FVHHHHHHHHBUEakffffffffD2FFRkkkkkkkkWL$84" \
+	HOSTID=c03c5988b239 TS_OK SIGN="0753 CA2E 441F 6BD0 4C33 A5B1 \
+	4EB3 B2D9 942E 4871 3B8A 15C0 BE87 3124 5A28 112A 5045 D08B \
+	453C 5522 22F5 01E4 4973 C847 4139 8E2A E5BB 1223 D6A0 7BED"
+# FEATURE END 
+################################################################################
+# FEATURE START 
+# The following is a license file for MAX+PLUS II Verilog 
+# Number of seat licenses is 1 
+# License Expires 10-Oct-2031 
+FEATURE maxplus2verilog alterad 2031.10 10-oct-2031 uncounted \
+	90139C39FF36 HOSTID=c03c5988b239 SIGN="0AE7 28EA 7202 F665 \
+	C7E6 871D BC39 0829 ADE0 9C21 E617 0983 9094 1F60 9E72 13E3 \
+	76EC DD83 D309 9DFD C805 52F2 E8CB BA29 C4D7 7229 31E1 7AE9 \
+	C453 C849"
+# FEATURE END 
+################################################################################
+# FEATURE START 
+# The following is a license file for MAX+PLUS II VHDL 
+# Number of seat licenses is 1 
+# License Expires 10-Oct-2031 
+FEATURE maxplus2vhdl alterad 2031.10 10-oct-2031 uncounted \
+	A64AE29C2E91 HOSTID=c03c5988b239 SIGN="171D 3013 7FDB A611 \
+	A2B4 856E 5EC7 22F6 A522 F07B 6ED9 CA14 DB7B 6027 9481 044D \
+	5864 2E4B 3101 A16D 8EBB 6184 691D 787B 444D B8C4 CF09 CBD4 \
+	F835 9076"
+# FEATURE END 
+################################################################################
+# FEATURE START 
+# The following is a license file for MAX+PLUS II Software 
+# Number of seat licenses is 1 
+# License Expires 10-Oct-2031 
+FEATURE maxplus2 alterad 2031.10 10-oct-2031 uncounted DCC0E0CFB46D \
+	HOSTID=c03c5988b239 TS_OK SIGN="1EB9 E607 30EC 3791 CE9B 4A77 \
+	523D 210A F15E 7D8A 4D2E 5EB8 D050 D1B5 3BF3 1780 7077 9D02 \
+	7CD5 569E 3170 53C6 BAFC 9C6A 43E5 764C FE27 7BE6 267C 326C"
+# FEATURE END 
+################################################################################
+# FEATURE START 
+# The following is a license file for Quartus II Subscription Edition University Fixed  
+# Number of seat licenses is 1 
+# License Expires 10-Oct-2031 
+FEATURE maxplus2 alterad 2031.10 10-oct-2031 uncounted 7A45ED8ADC1D \
+	HOSTID=c03c5988b239 SIGN="06C4 170B 062F 497D 0466 1143 FD7A \
+	CE7B 0822 3DF8 1050 5ECC 3E30 E1E9 AE2E 026B 6BD2 98A2 350C \
+	E8B8 5E70 5262 626A 24CB 3C13 9367 C165 3BF3 84E0 1A40"
+FEATURE quartus alterad 2031.10 10-oct-2031 uncounted 7AB998DAB112 \
+	HOSTID=c03c5988b239 TS_OK SIGN="00DE 5E22 BC76 4EB0 0840 C311 \
+	4093 1839 2ACF 3CAF 454D 5375 F041 E7CE 9208 003B 62CB AC04 \
+	4AF1 2B9D CE5D 2652 614B 9592 3BCB FB25 4E0F 178E 27D4 1AF9"
+# FEATURE END 
+################################################################################
+# End of Intel Corporation Software and/or Intellectual Property License File. Issued 01/10/2022

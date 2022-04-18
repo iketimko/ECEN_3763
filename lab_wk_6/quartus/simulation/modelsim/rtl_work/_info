@@ -1,0 +1,269 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/simulation/modelsim
+vclock
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1645759367
+!i10b 1
+!s100 W]AjcPj>YIcWBz0e^k65W0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+ICc[ZeN039DhfQRzCLjhlm1
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1645211737
+8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/clock.sv
+FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/clock.sv
+!i122 8
+L0 10 9
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1645759367.000000
+!s107 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/clock.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/clock.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source
+Z9 tCvgOpt 0
+vcounter
+R1
+Z10 !s110 1645759366
+!i10b 1
+!s100 I3Z`>ok_CnVg8`50]QYz[1
+R3
+IizKN30PSKaNB0Lbjo2TF`1
+R4
+S1
+R0
+Z11 w1645754456
+8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/counter.sv
+FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/counter.sv
+Z12 FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/params.svh
+!i122 5
+L0 10 72
+R5
+r1
+!s85 0
+31
+Z13 !s108 1645759366.000000
+!s107 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/params.svh|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/counter.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/counter.sv|
+!i113 1
+R7
+R8
+R9
+vIT_LAB_6
+R10
+!i10b 1
+!s100 EzRGXDBFgIHGO=LKNabH:0
+R3
+IBjgoJghF?0_J`b7I=4cg62
+R4
+R0
+w1645211174
+8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/IT_LAB_6.v
+FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/IT_LAB_6.v
+!i122 1
+L0 6 100
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/IT_LAB_6.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/IT_LAB_6.v|
+!i113 1
+Z14 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source
+R9
+n@i@t_@l@a@b_6
+vpixelgen
+R1
+R10
+!i10b 1
+!s100 S<A>Uj<I`JdU>iV@82^3Y2
+R3
+IZ4Je?I9dkFhRim:iKmNn[2
+R4
+S1
+R0
+w1645756489
+8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/pixelgen.sv
+FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/pixelgen.sv
+R12
+!i122 4
+L0 10 57
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/params.svh|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/pixelgen.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/pixelgen.sv|
+!i113 1
+R7
+R8
+R9
+vPLL
+R10
+!i10b 1
+!s100 a94m;goWb=mkXR^j;JaIK2
+R3
+If?6`16C<ignZakP5SEeR=0
+R4
+R0
+w1645213023
+8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL_sim/PLL.vo
+FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL_sim/PLL.vo
+!i122 0
+L0 32 264
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL_sim/PLL.vo|
+!s90 -reportprogress|300|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL_sim/PLL.vo|
+!i113 1
+R9
+n@p@l@l
+vreset
+R1
+R10
+!i10b 1
+!s100 flE@nhI6MYP7Z[n7Xb4F=2
+R3
+ImZbjm^@92H7ZoZJOkQ6L01
+R4
+S1
+R0
+w1645211834
+8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/reset.sv
+FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/reset.sv
+!i122 3
+L0 13 21
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/reset.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/reset.sv|
+!i113 1
+R7
+R8
+R9
+vROM_pixels
+R10
+!i10b 1
+!s100 BF4>P0k<Ubcmj3T:Oci_l2
+R3
+IzoL_69IT<j^l32Gzd>3A:2
+R4
+R0
+w1645656030
+8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/ROM_pixels.v
+FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/ROM_pixels.v
+!i122 2
+L0 40 61
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/ROM_pixels.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/ROM_pixels.v|
+!i113 1
+R14
+!s92 -vlog01compat -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus
+R9
+n@r@o@m_pixels
+vtb
+R1
+R2
+!i10b 1
+!s100 8EFSBoUUNTlVUIL@ocCH50
+R3
+Ij?;4XRW;e8A^TiaaAWF>b3
+R4
+S1
+R0
+w1645211783
+8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/../source/tb.sv
+FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/../source/tb.sv
+!i122 9
+L0 11 26
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/../source/tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/../source|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/../source/tb.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/../source
+R9
+vtimer
+R1
+R2
+!i10b 1
+!s100 Sl3FUm4lQ4h>?ZA2@WZ9W0
+R3
+Ic@_MCAd8G6NLUm6b1aj=F3
+R4
+S1
+R0
+w1645733621
+8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/timer.sv
+FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/timer.sv
+!i122 6
+L0 10 11
+R5
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/timer.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/timer.sv|
+!i113 1
+R7
+R8
+R9
+vtop
+R1
+R2
+!i10b 1
+!s100 Aj>LndQjRBj<@HT9ohj8m0
+R3
+INec[HmnEJXfoifP=J:QCK1
+R4
+S1
+R0
+R11
+8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/top.sv
+FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/top.sv
+R12
+!i122 7
+L0 10 98
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/params.svh|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/top.sv|
+!i113 1
+R7
+R8
+R9

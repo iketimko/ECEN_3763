@@ -1,0 +1,505 @@
+# Reading pref.tcl
+# do setup_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:23 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv 
+# -- Compiling module setup
+# 
+# Top level modules:
+# 	setup
+# End time: 15:38:23 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:38:23 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:38:23 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 15:38:24 on Jan 19,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.setup
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#      0: LEDR=xxxxxxxxxx
+#     20: LEDR=0000000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 17000170 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+# Saving layout as "Simulate"
+add wave -position end  sim:/tb/DUT/COUNTER_VAL
+restart
+add wave -position end  sim:/tb/DUT/COUNTER_VAL
+do setup_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:44:50 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv 
+# -- Compiling module setup
+# 
+# Top level modules:
+# 	setup
+# End time: 15:44:50 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:44:50 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:44:50 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# End time: 15:44:52 on Jan 19,2022, Elapsed time: 0:06:28
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 15:44:52 on Jan 19,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.setup
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#      0: LEDR=xxxxxxxxxx
+#     20: LEDR=0000000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 17000170 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+add wave -position end  sim:/tb/DUT/COUNTER_VAL
+restart
+run -all
+#      0: LEDR=xxxxxxxxxx
+#     20: LEDR=0000000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 17000170 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+run 1ms
+run 9ms
+run 100ms
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/wave.do
+do setup_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:53:49 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv 
+# -- Compiling module setup
+# 
+# Top level modules:
+# 	setup
+# End time: 15:53:49 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:53:49 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:53:49 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# End time: 15:53:51 on Jan 19,2022, Elapsed time: 0:08:59
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 15:53:51 on Jan 19,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.setup
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 17000170 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+do wave.do
+run -all
+reset
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+quit -sim
+# End time: 15:55:33 on Jan 19,2022, Elapsed time: 0:01:42
+# Errors: 0, Warnings: 0
+do setup_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:55:44 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv 
+# -- Compiling module setup
+# 
+# Top level modules:
+# 	setup
+# End time: 15:55:44 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:55:44 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 15:55:44 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 15:55:44 on Jan 19,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.setup
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 17000170 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+do wave.do
+reset
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+reset
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+reset
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+reset
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+run 10ms
+reset
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+reset
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+do setup_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:19:10 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv 
+# -- Compiling module setup
+# 
+# Top level modules:
+# 	setup
+# End time: 16:19:10 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:19:10 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:19:10 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# End time: 16:19:11 on Jan 19,2022, Elapsed time: 0:23:27
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 16:19:12 on Jan 19,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.setup
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 17000170 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+do make.do
+# Cannot open macro file: make.do
+do wave.do
+run -all
+reset
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+restart
+run -all
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 17000170 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+do setup_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:50 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv 
+# -- Compiling module setup
+# 
+# Top level modules:
+# 	setup
+# End time: 16:28:50 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:28:50 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:28:51 on Jan 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# End time: 16:29:04 on Jan 19,2022, Elapsed time: 0:09:52
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 16:29:04 on Jan 19,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.setup
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 1600 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+do wave.do
+restart
+run -all
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 1600 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+do setup_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:35:45 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv 
+# -- Compiling module setup
+# ** Error: (vlog-13069) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv(28): near "<=": syntax error, unexpected <=.
+# End time: 16:35:45 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./setup_run_msim_rtl_verilog.do line 8
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv}"
+do setup_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:03 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv 
+# -- Compiling module setup
+# 
+# Top level modules:
+# 	setup
+# End time: 16:36:04 on Jan 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:36:04 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:36:04 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# End time: 16:36:06 on Jan 19,2022, Elapsed time: 0:07:02
+# Errors: 1, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 16:36:06 on Jan 19,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.setup
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 1600 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+do wave.do
+restart
+run -all
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 1600 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/wave.do
+do setup_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:46:48 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/source/setup.sv 
+# -- Compiling module setup
+# 
+# Top level modules:
+# 	setup
+# End time: 16:46:48 on Jan 19,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:46:48 on Jan 19,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 16:46:49 on Jan 19,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb
+# End time: 16:46:54 on Jan 19,2022, Elapsed time: 0:10:48
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb 
+# Start time: 16:46:54 on Jan 19,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.setup
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 1500 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+do wave.do
+restart
+run -all
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv(34)
+#    Time: 1500 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/../source/tb.sv line 34
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_1/quartus/simulation/modelsim/wave.do
+# End time: 17:02:31 on Jan 19,2022, Elapsed time: 0:15:37
+# Errors: 0, Warnings: 0

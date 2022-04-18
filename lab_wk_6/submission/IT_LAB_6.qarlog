@@ -1,0 +1,37 @@
+Quartus Prime Archive log --	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/submission/IT_LAB_6.qarlog
+
+Archive:	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/submission/IT_LAB_6.qar
+Date:		Thu Feb 24 23:04:01 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/IT_LAB_6.qpf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/IT_LAB_6.qsf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/IT_LAB_6.sdc
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/ROM_pixels.qip
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/ROM_pixels.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/ROM_pixels_bb.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/ROM_pixels_inst.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/quartus/assignment_defaults.qdf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/IT_LAB_6.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL.cmp
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL.qip
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL.sip
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL.spd
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL/PLL_0002.qip
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL/PLL_0002.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/PLL_quartus_files/PLL_sim/PLL.vo
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/clock.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/counter.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/pixelgen.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/pixels.mif
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/reset.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/tb.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/timer.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_6/source/top.sv
+C:/users/idtti/onedrive/desktop/ecen_3763/lab_wk_6/source/params.svh
+	======= Total: 26 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

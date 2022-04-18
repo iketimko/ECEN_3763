@@ -1,0 +1,18 @@
+Quartus Prime Archive log --	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_1/quartus/TIMKO_LAB_1.qarlog
+
+Archive:	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_1/quartus/TIMKO_LAB_1.qar
+Date:		Mon Mar 07 13:41:57 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_1/quartus/setup.SDC
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_1/quartus/setup.qpf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_1/quartus/setup.qsf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_1/quartus/setup.sdc
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_1/quartus/setup_assignment_defaults.qdf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_1/source/setup.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_1/source/tb.sv
+	======= Total: 7 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

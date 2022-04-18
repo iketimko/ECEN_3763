@@ -1,0 +1,12 @@
+Isaac Timko
+Homework 10
+FPGA Design and HDL
+
+1.) Did you complete the JTAG portion of this Homework?
+    - Yes
+2.) Were there any parts of this Homework that did not work for you?
+    - The JTAG Manual Readback section of this homework returned different values for the device ID than the expected, but no commands returned errors.
+3.) Did you complete the flash programming portion of this lab?
+    - Yes
+4.) Were there any parts of this lab that did not work for you?
+    - The GUI for the "convert Programming files" function in Quartus was not exactly the same as what was described in the instructions, but the buttons/options matching the instructions were easily located  with a little looking.

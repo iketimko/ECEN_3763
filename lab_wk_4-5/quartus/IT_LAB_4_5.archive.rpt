@@ -1,0 +1,110 @@
+Archive Project report for IT_LAB_4_5
+Thu Feb 17 13:57:53 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Thu Feb 17 13:57:53 2022 ;
+; Revision Name          ; IT_LAB_4_5                            ;
+; Top-level Entity Name  ; IT_LAB_4_5                            ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/submission/IT_LAB_4_5.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'IT_LAB_4_5.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4827 megabytes
+    Info: Processing ended: Thu Feb 17 13:57:53 2022
+    Info: Elapsed time: 00:00:04
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                 ;
++------------------------------------------------------------------------------------------------+
+; File Name                                                                                      ;
++------------------------------------------------------------------------------------------------+
+; ../source/clock.sv                                                                             ;
+; ../source/counter.sv                                                                           ;
+; ../source/IT_LAB_4_5.v                                                                         ;
+; ../source/pixelgen.sv                                                                          ;
+; ../source/PLL_quartus_files/PLL.cmp                                                            ;
+; ../source/PLL_quartus_files/PLL.qip                                                            ;
+; ../source/PLL_quartus_files/PLL.sip                                                            ;
+; ../source/PLL_quartus_files/PLL.spd                                                            ;
+; ../source/PLL_quartus_files/PLL.v                                                              ;
+; ../source/PLL_quartus_files/PLL/PLL_0002.qip                                                   ;
+; ../source/PLL_quartus_files/PLL/PLL_0002.v                                                     ;
+; ../source/PLL_quartus_files/PLL_sim/PLL.vo                                                     ;
+; ../source/reset.sv                                                                             ;
+; ../source/tb.sv                                                                                ;
+; ../source/timer.sv                                                                             ;
+; ../source/top.sv                                                                               ;
+; /users/idtti/onedrive/desktop/ecen_3763/lab_wk_4-5/source/params.svh                           ;
+; c:/intelfpga/20.1/quartus/bin64/assignment_defaults.qdf                                        ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/clock.sv                           ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/counter.sv                         ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/IT_LAB_4_5.v                       ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/pixelgen.sv                        ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL.qip          ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL.sip          ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL.v            ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL/PLL_0002.qip ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL/PLL_0002.v   ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/reset.sv                           ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/tb.sv                              ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/timer.sv                           ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/top.sv                             ;
+; IT_LAB_4_5.qpf                                                                                 ;
+; IT_LAB_4_5.qsf                                                                                 ;
+; IT_LAB_4_5.sdc                                                                                 ;
++------------------------------------------------------------------------------------------------+
+
+

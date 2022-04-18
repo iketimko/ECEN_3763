@@ -1,0 +1,200 @@
+Archive Project report for IT_LAB_9
+Thu Apr 14 17:22:20 2022
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2020  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Thu Apr 14 17:22:20 2022 ;
+; Revision Name          ; IT_LAB_9                              ;
+; Top-level Entity Name  ; IT_LAB_9                              ;
+; Family                 ; Cyclone V                             ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Custom' contains:
+    Info: Automatically detected source files
+    Info: Project source and settings files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/L9_submission/IT_LAB_9.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'IT_LAB_9.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/intelfpga/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4837 megabytes
+    Info: Processing ended: Thu Apr 14 17:22:20 2022
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:05
+
+
++---------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                    ;
++---------------------------------------------------------------------------------------------------+
+; File Name                                                                                         ;
++---------------------------------------------------------------------------------------------------+
+; ../source/clock.sv                                                                                ;
+; ../source/counter.sv                                                                              ;
+; ../source/IT_LAB_9.v                                                                              ;
+; ../source/pixelgen.sv                                                                             ;
+; ../source/PLL_quartus_files/PLL.cmp                                                               ;
+; ../source/PLL_quartus_files/PLL.qip                                                               ;
+; ../source/PLL_quartus_files/PLL.sip                                                               ;
+; ../source/PLL_quartus_files/PLL.spd                                                               ;
+; ../source/PLL_quartus_files/PLL.v                                                                 ;
+; ../source/PLL_quartus_files/PLL/PLL_0002.qip                                                      ;
+; ../source/PLL_quartus_files/PLL/PLL_0002.v                                                        ;
+; ../source/PLL_quartus_files/PLL_sim/PLL.vo                                                        ;
+; ../source/reset.sv                                                                                ;
+; ../source/tb.sv                                                                                   ;
+; ../source/timer.sv                                                                                ;
+; ../source/top.sv                                                                                  ;
+; /users/idtti/onedrive/desktop/ecen_3763/lab_wk_9/source/params.svh                                ;
+; assignment_defaults.qdf                                                                           ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/clock.sv                                ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/counter.sv                              ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/IT_LAB_9.v                              ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/LAB_9.tcl                               ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/params.svh                              ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/pixelgen.sv                             ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/PLL_quartus_files/PLL.qip               ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/PLL_quartus_files/PLL.sip               ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/PLL_quartus_files/PLL.v                 ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/PLL_quartus_files/PLL/PLL_0002.qip      ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/PLL_quartus_files/PLL/PLL_0002.v        ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/prog.tcl                                ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/program_DMA.tcl                         ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/quartus_lab_wk_9.tcl                    ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/reset.sv                                ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/SDRAM.tcl                               ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/system_console_rc.tcl                   ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/tb.sv                                   ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/test.tcl                                ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/timer.sv                                ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_9/source/top.sv                                  ;
+; db/stp1_auto_stripped.stp                                                                         ;
+; IT_LAB_9.cdf                                                                                      ;
+; IT_LAB_9.qpf                                                                                      ;
+; IT_LAB_9.qsf                                                                                      ;
+; IT_LAB_9.sdc                                                                                      ;
+; PD_LAB_9/synthesis/../../PD_LAB_9.qsys                                                            ;
+; PD_LAB_9/synthesis/../../PD_LAB_9.sopcinfo                                                        ;
+; PD_LAB_9/synthesis/../PD_LAB_9.cmp                                                                ;
+; PD_LAB_9/synthesis/PD_LAB_9.debuginfo                                                             ;
+; PD_LAB_9/synthesis/PD_LAB_9.qip                                                                   ;
+; PD_LAB_9/synthesis/PD_LAB_9.regmap                                                                ;
+; PD_LAB_9/synthesis/PD_LAB_9.v                                                                     ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_packets_to_master.v                                   ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_sc_fifo.v                                             ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_st_bytes_to_packets.v                                 ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_st_clock_crosser.v                                    ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.sdc                        ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_st_idle_inserter.v                                    ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_st_idle_remover.v                                     ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_st_jtag_interface.sdc                                 ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_st_jtag_interface.v                                   ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_st_packets_to_bytes.v                                 ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_st_pipeline_base.v                                    ;
+; PD_LAB_9/synthesis/submodules/altera_avalon_st_pipeline_stage.sv                                  ;
+; PD_LAB_9/synthesis/submodules/altera_default_burst_converter.sv                                   ;
+; PD_LAB_9/synthesis/submodules/altera_incr_burst_converter.sv                                      ;
+; PD_LAB_9/synthesis/submodules/altera_jtag_dc_streaming.v                                          ;
+; PD_LAB_9/synthesis/submodules/altera_jtag_sld_node.v                                              ;
+; PD_LAB_9/synthesis/submodules/altera_jtag_streaming.v                                             ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_address_alignment.sv                                  ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_arbitrator.sv                                         ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_burst_adapter.sv                                      ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv                                 ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_burst_adapter_new.sv                                  ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv                               ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_burst_uncompressor.sv                                 ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_master_agent.sv                                       ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_master_translator.sv                                  ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_reorder_memory.sv                                     ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_slave_agent.sv                                        ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_slave_translator.sv                                   ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_traffic_limiter.sv                                    ;
+; PD_LAB_9/synthesis/submodules/altera_merlin_width_adapter.sv                                      ;
+; PD_LAB_9/synthesis/submodules/altera_reset_controller.sdc                                         ;
+; PD_LAB_9/synthesis/submodules/altera_reset_controller.v                                           ;
+; PD_LAB_9/synthesis/submodules/altera_reset_synchronizer.v                                         ;
+; PD_LAB_9/synthesis/submodules/altera_std_synchronizer_nocut.v                                     ;
+; PD_LAB_9/synthesis/submodules/altera_wrap_burst_converter.sv                                      ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_dma_0.v                                                    ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_fifo_0.sdc                                                 ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_fifo_0.v                                                   ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_master_0.v                                                 ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_master_0_b2p_adapter.sv                                    ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_master_0_p2b_adapter.sv                                    ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_master_0_timing_adt.sv                                     ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0.v                                        ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_avalon_st_adapter.v                      ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_avalon_st_adapter_002.v                  ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_avalon_st_adapter_002_error_adapter_0.sv ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv     ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_cmd_demux.sv                             ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_cmd_demux_001.sv                         ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_cmd_mux.sv                               ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_cmd_mux_002.sv                           ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_router.sv                                ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_router_001.sv                            ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_router_002.sv                            ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_router_004.sv                            ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_rsp_demux_002.sv                         ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_rsp_mux.sv                               ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_0_rsp_mux_001.sv                           ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_mm_interconnect_1.v                                        ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_new_sdram_controller_0.v                                   ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_pio_0.v                                                    ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_pll_0.qip                                                  ;
+; PD_LAB_9/synthesis/submodules/PD_LAB_9_pll_0.v                                                    ;
+; ROM_640p.qip                                                                                      ;
+; ROM_640p.v                                                                                        ;
+; ROM_640p_bb.v                                                                                     ;
+; ROM_640p_inst.v                                                                                   ;
+; ROM_pixels.qip                                                                                    ;
+; ROM_pixels.v                                                                                      ;
+; ROM_pixels_bb.v                                                                                   ;
+; ROM_pixels_inst.v                                                                                 ;
+; stp1.stp                                                                                          ;
++---------------------------------------------------------------------------------------------------+
+
+

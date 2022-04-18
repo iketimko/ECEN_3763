@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Mar 07 13:44:20 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : IT_LAB_7
+Top-level Entity Name : IT_LAB_7
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 217
+Total pins : 168
+Total virtual pins : 0
+Total block memory bits : 4,147,200
+Total DSP Blocks : 0
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 1
+Total DLLs : 0

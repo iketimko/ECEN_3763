@@ -1,0 +1,32 @@
+Quartus Prime Archive log --	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/quartus/IT_LAB_4_5.qarlog
+
+Archive:	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/quartus/IT_LAB_4_5.qar
+Date:		Wed Feb 16 14:19:08 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/quartus/IT_LAB_4_5.qpf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/quartus/IT_LAB_4_5.qsf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/quartus/IT_LAB_4_5.sdc
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/IT_LAB_4_5.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL.cmp
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL.qip
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL.sip
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL.spd
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL/PLL_0002.qip
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL/PLL_0002.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/PLL_quartus_files/PLL_sim/PLL.vo
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/clock.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/counter.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/pixelgen.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/reset.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/tb.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/timer.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_4-5/source/top.sv
+C:/users/idtti/onedrive/desktop/ecen_3763/lab_wk_4-5/source/params.svh
+c:/intelfpga/20.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 21 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,41 @@
+Quartus Prime Archive log --	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/IT_LAB_3.qarlog
+
+Archive:	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/IT_LAB_3.qar
+Date:		Fri Feb 04 21:25:13 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/KEY.qsys
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/KEY.sopcinfo
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/KEY/KEY.cmp
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/KEY/synthesis/KEY.debuginfo
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/KEY/synthesis/KEY.qip
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/KEY/synthesis/KEY.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/KEY/synthesis/submodules/altsource_probe_top.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/RESET.qsys
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/RESET.sopcinfo
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/RESET/RESET.cmp
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/RESET/synthesis/RESET.debuginfo
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/RESET/synthesis/RESET.qip
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/RESET/synthesis/RESET.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/RESET/synthesis/submodules/altsource_probe_top.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/SWITCH.qsys
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/SWITCH.sopcinfo
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/SWITCH/SWITCH.cmp
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/SWITCH/synthesis/SWITCH.debuginfo
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/SWITCH/synthesis/SWITCH.qip
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/SWITCH/synthesis/SWITCH.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/SWITCH/synthesis/submodules/altsource_probe_top.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/setup.SDC
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/setup.qpf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/setup.qsf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/setup.sdc
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/quartus/setup_assignment_defaults.qdf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/source/issp.tcl
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/source/reset.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/source/setup.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_3/source/tb.sv
+	======= Total: 30 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
