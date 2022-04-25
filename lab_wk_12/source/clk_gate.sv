@@ -1,22 +1,27 @@
 
-module clk_gate (clk_in, clk_en, pll_locked, clk_out);
+module clk_gate (clk_in, enable, reset, clk_out);
 
+input enable;
 input clk_in;
-input clk_en;		
-input pll_locked;	
-output logic reset_n;
+input reset;
+output logic clk_out;
 
-logic q0, q1, asynch_clk_en;
-assign asynch_clk_en  = clk_en & pll_locked;
+logic clkg_en, gated_clk;
 
-always_ff @ (posedge clk_in, posedge asynch_clk_en)
-    if (asynch_clk_en == 1'b0)
-        begin
-            q0 <= 1'b0;  q1 <= 1'b0;  reset_n <= 1'b0;
-        end
-    else
-        begin
-            q0 <= 1'b1;  q1 <= q0;  reset_n <= q1;
-        end 
+always_latch  begin
+ if(~clk_in) 
+    clkg_en = enable;
+end
+
+assign clk_out = clk_in & clkg_en;
+ 
+// assign gated_clk = clk_in & clkg_en;
+
+// always_ff @(posedge gated_clk, negedge reset) begin
+//   if(reset)
+//      Q <= 1'b0;
+//   else 
+//      Q <= D;
+// end
 
 endmodule

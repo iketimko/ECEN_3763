@@ -1,0 +1,1730 @@
+# Reading pref.tcl
+# do IT_LAB_12_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlib PD_L12
+# vmap PD_L12 PD_L12
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap PD_L12 PD_L12 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:43 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v 
+# -- Compiling module PD_L12
+# 
+# Top level modules:
+# 	PD_L12
+# End time: 17:27:43 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:44 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v 
+# -- Compiling module PD_L12_pll_0
+# 
+# Top level modules:
+# 	PD_L12_pll_0
+# End time: 17:27:44 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:44 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv 
+# -- Compiling module ADC_controller
+# 
+# Top level modules:
+# 	ADC_controller
+# End time: 17:27:44 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:44 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv 
+# -- Compiling module segment7
+# 
+# Top level modules:
+# 	segment7
+# End time: 17:27:44 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:44 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv 
+# -- Compiling module clk_gate
+# 
+# Top level modules:
+# 	clk_gate
+# End time: 17:27:44 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:44 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv 
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# End time: 17:27:44 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:44 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv 
+# -- Compiling module IT_LAB_12
+# 
+# Top level modules:
+# 	IT_LAB_12
+# End time: 17:27:44 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:27:45 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:27:45 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs="+acc"  tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs=""+acc"" tb 
+# Start time: 17:27:45 on Apr 24,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.IT_LAB_12
+# Loading PD_L12.PD_L12
+# Loading PD_L12.PD_L12_pll_0
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.clk_gate
+# Loading work.ADC_controller
+# Loading work.bin2bcd
+# Loading work.segment7
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 1050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+add wave -position end  sim:/tb/DUT/u1/enable
+add wave -position end  sim:/tb/DUT/u1/clk_out
+add wave -position end  sim:/tb/DUT/u2/ADC_clk
+add wave -position end  sim:/tb/DUT/u2/SDO
+add wave -position end  sim:/tb/DUT/u2/SDI
+add wave -position 7  sim:/tb/DUT/u2/CONVST
+add wave -position end  sim:/tb/DUT/u2/binval
+add wave -position end  sim:/tb/DUT/u2/COUNTER_VAL
+add wave -position end  sim:/tb/DUT/u2/CTRL
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/wave.do
+reset
+# ambiguous command name "reset": resetGlobalEvcd resetTime
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/wave.do
+do IT_LAB_12_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlib PD_L12
+# ** Warning: (vlib-34) Library already exists at "PD_L12".
+# vmap PD_L12 PD_L12
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap PD_L12 PD_L12 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:04 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v 
+# -- Compiling module PD_L12
+# 
+# Top level modules:
+# 	PD_L12
+# End time: 17:33:04 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:04 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v 
+# -- Compiling module PD_L12_pll_0
+# 
+# Top level modules:
+# 	PD_L12_pll_0
+# End time: 17:33:05 on Apr 24,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:05 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv 
+# -- Compiling module ADC_controller
+# 
+# Top level modules:
+# 	ADC_controller
+# End time: 17:33:05 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:05 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv 
+# -- Compiling module segment7
+# 
+# Top level modules:
+# 	segment7
+# End time: 17:33:05 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:05 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv 
+# -- Compiling module clk_gate
+# 
+# Top level modules:
+# 	clk_gate
+# End time: 17:33:05 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:05 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv 
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# End time: 17:33:05 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:05 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv 
+# -- Compiling module IT_LAB_12
+# 
+# Top level modules:
+# 	IT_LAB_12
+# End time: 17:33:05 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:33:05 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:33:05 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs="+acc"  tb
+# End time: 17:33:07 on Apr 24,2022, Elapsed time: 0:05:22
+# Errors: 0, Warnings: 34
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs=""+acc"" tb 
+# Start time: 17:33:07 on Apr 24,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.IT_LAB_12
+# Loading PD_L12.PD_L12
+# Loading PD_L12.PD_L12_pll_0
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.clk_gate
+# Loading work.ADC_controller
+# Loading work.bin2bcd
+# Loading work.segment7
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 1050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+do wave.do
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run -a
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 1050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+do IT_LAB_12_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlib PD_L12
+# ** Warning: (vlib-34) Library already exists at "PD_L12".
+# vmap PD_L12 PD_L12
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap PD_L12 PD_L12 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:30 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v 
+# -- Compiling module PD_L12
+# 
+# Top level modules:
+# 	PD_L12
+# End time: 17:34:30 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:31 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v 
+# -- Compiling module PD_L12_pll_0
+# 
+# Top level modules:
+# 	PD_L12_pll_0
+# End time: 17:34:31 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:31 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv 
+# -- Compiling module ADC_controller
+# 
+# Top level modules:
+# 	ADC_controller
+# End time: 17:34:31 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:31 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv 
+# -- Compiling module segment7
+# 
+# Top level modules:
+# 	segment7
+# End time: 17:34:31 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:31 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv 
+# -- Compiling module clk_gate
+# 
+# Top level modules:
+# 	clk_gate
+# End time: 17:34:31 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:31 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv 
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# End time: 17:34:31 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:31 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv 
+# -- Compiling module IT_LAB_12
+# 
+# Top level modules:
+# 	IT_LAB_12
+# End time: 17:34:31 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:34:31 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:34:31 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs="+acc"  tb
+# End time: 17:34:45 on Apr 24,2022, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 34
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs=""+acc"" tb 
+# Start time: 17:34:45 on Apr 24,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.IT_LAB_12
+# Loading PD_L12.PD_L12
+# Loading PD_L12.PD_L12_pll_0
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.clk_gate
+# Loading work.ADC_controller
+# Loading work.bin2bcd
+# Loading work.segment7
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+do wave.do
+restsrt
+# invalid command name "restsrt"
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run -a
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run -a
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+do IT_LAB_12_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlib PD_L12
+# ** Warning: (vlib-34) Library already exists at "PD_L12".
+# vmap PD_L12 PD_L12
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap PD_L12 PD_L12 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:38:17 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v 
+# -- Compiling module PD_L12
+# 
+# Top level modules:
+# 	PD_L12
+# End time: 17:38:17 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:38:17 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v 
+# -- Compiling module PD_L12_pll_0
+# 
+# Top level modules:
+# 	PD_L12_pll_0
+# End time: 17:38:17 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:38:17 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv 
+# -- Compiling module ADC_controller
+# 
+# Top level modules:
+# 	ADC_controller
+# End time: 17:38:17 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:38:17 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv 
+# -- Compiling module segment7
+# 
+# Top level modules:
+# 	segment7
+# End time: 17:38:17 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:38:17 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv 
+# -- Compiling module clk_gate
+# 
+# Top level modules:
+# 	clk_gate
+# End time: 17:38:17 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:38:17 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv 
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# End time: 17:38:17 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:38:17 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv 
+# -- Compiling module IT_LAB_12
+# 
+# Top level modules:
+# 	IT_LAB_12
+# End time: 17:38:18 on Apr 24,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:38:18 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:38:18 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs="+acc"  tb
+# End time: 17:38:19 on Apr 24,2022, Elapsed time: 0:03:34
+# Errors: 0, Warnings: 34
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs=""+acc"" tb 
+# Start time: 17:38:19 on Apr 24,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.IT_LAB_12
+# Loading PD_L12.PD_L12
+# Loading PD_L12.PD_L12_pll_0
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.clk_gate
+# Loading work.ADC_controller
+# Loading work.bin2bcd
+# Loading work.segment7
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+do wave.do
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run -a
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+do IT_LAB_12_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlib PD_L12
+# ** Warning: (vlib-34) Library already exists at "PD_L12".
+# vmap PD_L12 PD_L12
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap PD_L12 PD_L12 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:41:48 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v 
+# -- Compiling module PD_L12
+# 
+# Top level modules:
+# 	PD_L12
+# End time: 17:41:48 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:41:48 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v 
+# -- Compiling module PD_L12_pll_0
+# 
+# Top level modules:
+# 	PD_L12_pll_0
+# End time: 17:41:49 on Apr 24,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:41:49 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv 
+# -- Compiling module ADC_controller
+# 
+# Top level modules:
+# 	ADC_controller
+# End time: 17:41:49 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:41:49 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv 
+# -- Compiling module segment7
+# 
+# Top level modules:
+# 	segment7
+# End time: 17:41:49 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:41:49 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv 
+# -- Compiling module clk_gate
+# 
+# Top level modules:
+# 	clk_gate
+# End time: 17:41:49 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:41:49 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv 
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# End time: 17:41:49 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:41:49 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv 
+# -- Compiling module IT_LAB_12
+# 
+# Top level modules:
+# 	IT_LAB_12
+# End time: 17:41:49 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:41:49 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:41:49 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs="+acc"  tb
+# End time: 17:41:51 on Apr 24,2022, Elapsed time: 0:03:32
+# Errors: 0, Warnings: 34
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs=""+acc"" tb 
+# Start time: 17:41:51 on Apr 24,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.IT_LAB_12
+# Loading PD_L12.PD_L12
+# Loading PD_L12.PD_L12_pll_0
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.clk_gate
+# Loading work.ADC_controller
+# Loading work.bin2bcd
+# Loading work.segment7
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+do wave.do
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run -a
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+add wave -position end  sim:/tb/DUT/ADC_clk_en
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/wave.do
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run -a
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+do IT_LAB_12_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlib PD_L12
+# ** Warning: (vlib-34) Library already exists at "PD_L12".
+# vmap PD_L12 PD_L12
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap PD_L12 PD_L12 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:44:36 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v 
+# -- Compiling module PD_L12
+# 
+# Top level modules:
+# 	PD_L12
+# End time: 17:44:37 on Apr 24,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:44:37 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v 
+# -- Compiling module PD_L12_pll_0
+# 
+# Top level modules:
+# 	PD_L12_pll_0
+# End time: 17:44:37 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:44:37 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv 
+# -- Compiling module ADC_controller
+# 
+# Top level modules:
+# 	ADC_controller
+# End time: 17:44:37 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:44:37 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv 
+# -- Compiling module segment7
+# 
+# Top level modules:
+# 	segment7
+# End time: 17:44:37 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:44:37 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv 
+# -- Compiling module clk_gate
+# 
+# Top level modules:
+# 	clk_gate
+# End time: 17:44:37 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:44:37 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv 
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# End time: 17:44:37 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:44:37 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv 
+# -- Compiling module IT_LAB_12
+# 
+# Top level modules:
+# 	IT_LAB_12
+# End time: 17:44:37 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:44:37 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:44:38 on Apr 24,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs="+acc"  tb
+# End time: 17:44:40 on Apr 24,2022, Elapsed time: 0:02:49
+# Errors: 0, Warnings: 34
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs=""+acc"" tb 
+# Start time: 17:44:40 on Apr 24,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.IT_LAB_12
+# Loading PD_L12.PD_L12
+# Loading PD_L12.PD_L12_pll_0
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.clk_gate
+# Loading work.ADC_controller
+# Loading work.bin2bcd
+# Loading work.segment7
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+do wave.do
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run -a
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+do IT_LAB_12_run_msim_rtl_systemverilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlib PD_L12
+# ** Warning: (vlib-34) Library already exists at "PD_L12".
+# vmap PD_L12 PD_L12
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap PD_L12 PD_L12 
+# Modifying modelsim.ini
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:47:06 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v 
+# -- Compiling module PD_L12
+# 
+# Top level modules:
+# 	PD_L12
+# End time: 17:47:06 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:47:06 on Apr 24,2022
+# vlog -reportprogress 300 -vlog01compat -work PD_L12 "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v 
+# -- Compiling module PD_L12_pll_0
+# 
+# Top level modules:
+# 	PD_L12_pll_0
+# End time: 17:47:06 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:47:06 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv 
+# -- Compiling module ADC_controller
+# 
+# Top level modules:
+# 	ADC_controller
+# End time: 17:47:06 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:47:06 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv 
+# -- Compiling module segment7
+# 
+# Top level modules:
+# 	segment7
+# End time: 17:47:06 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:47:06 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv 
+# -- Compiling module clk_gate
+# 
+# Top level modules:
+# 	clk_gate
+# End time: 17:47:07 on Apr 24,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:47:07 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv 
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# End time: 17:47:07 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:47:07 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv 
+# -- Compiling module IT_LAB_12
+# 
+# Top level modules:
+# 	IT_LAB_12
+# End time: 17:47:07 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:47:07 on Apr 24,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source" C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv 
+# -- Compiling module tb
+# 
+# Top level modules:
+# 	tb
+# End time: 17:47:07 on Apr 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs="+acc"  tb
+# End time: 17:47:09 on Apr 24,2022, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 34
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -L PD_L12 -voptargs=""+acc"" tb 
+# Start time: 17:47:09 on Apr 24,2022
+# Loading sv_std.std
+# Loading work.tb
+# Loading work.IT_LAB_12
+# Loading PD_L12.PD_L12
+# Loading PD_L12.PD_L12_pll_0
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.clk_gate
+# Loading work.ADC_controller
+# Loading work.bin2bcd
+# Loading work.segment7
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31
+do wave.do
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'DUT'.  Expected 16, found 4.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv Line: 18
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_CONVST'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_DIN'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(18): [TFMPC] - Missing connection for port 'ADC_SCLK'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'altera_pll_i'.  Expected 26, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /tb/DUT/u0/pll_0/altera_pll_i File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 78
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v(78): [TFMPC] - Missing connection for port 'zdbfbclk'.
+run -a
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = tb.DUT.u0.pll_0.altera_pll_i.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv(31)
+#    Time: 10050 ns  Iteration: 0  Instance: /tb
+# Break in Module tb at C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/../source/tb.sv line 31

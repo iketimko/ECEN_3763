@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="54ff293d5f5c5e83752e"/>
+  </project>
+  <file_info>
+    <file device="5CSXFC6D6F31C6" path="IT_LAB_12.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="PD_L12:u0" name="u0">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME PD_L12 HAS_SOPCINFO 1 GENERATION_ID 1650836309"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>
