@@ -1,5 +1,5 @@
 Analysis & Synthesis report for IT_LAB_12
-Sun Apr 24 17:52:45 2022
+Mon Apr 25 16:30:29 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
 
 
@@ -14,13 +14,15 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. Analysis & Synthesis IP Cores Summary
-  9. User-Specified and Inferred Latches
- 10. General Register Statistics
- 11. Parameter Settings for User Entity Instance: PD_L12:u0|PD_L12_pll_0:pll_0|altera_pll:altera_pll_i
- 12. Port Connectivity Checks: "PD_L12:u0|PD_L12_pll_0:pll_0|altera_pll:altera_pll_i"
- 13. Post-Synthesis Netlist Statistics for Top Partition
- 14. Elapsed Time Per Partition
- 15. Analysis & Synthesis Messages
+  9. General Register Statistics
+ 10. Parameter Settings for User Entity Instance: PD_L12:u0|PD_L12_pll_0:pll_0|altera_pll:altera_pll_i
+ 11. Parameter Settings for User Entity Instance: ADC_controller:u1|shift:u0
+ 12. Port Connectivity Checks: "ADC_controller:u1|shift:u0"
+ 13. Port Connectivity Checks: "PD_L12:u0|PD_L12_pll_0:pll_0|altera_pll:altera_pll_i"
+ 14. Port Connectivity Checks: "PD_L12:u0"
+ 15. Post-Synthesis Netlist Statistics for Top Partition
+ 16. Elapsed Time Per Partition
+ 17. Analysis & Synthesis Messages
 
 
 
@@ -47,13 +49,13 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sun Apr 24 17:52:45 2022           ;
+; Analysis & Synthesis Status     ; Successful - Mon Apr 25 16:30:29 2022           ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Standard Edition ;
 ; Revision Name                   ; IT_LAB_12                                       ;
 ; Top-level Entity Name           ; IT_LAB_12                                       ;
 ; Family                          ; Cyclone V                                       ;
 ; Logic utilization (in ALMs)     ; N/A                                             ;
-; Total registers                 ; 4                                               ;
+; Total registers                 ; 33                                              ;
 ; Total pins                      ; 64                                              ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0                                               ;
@@ -177,6 +179,8 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path           ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                           ; Library ;
 +--------------------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------+---------+
+; ../source/shift.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/shift.sv                                    ;         ;
+; ../source/reset.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/reset.sv                                    ;         ;
 ; ../source/ADC_controller.sv                ; yes             ; User SystemVerilog HDL File  ; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv                           ;         ;
 ; PD_L12/synthesis/PD_L12.v                  ; yes             ; User Verilog HDL File        ; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v                  ; PD_L12  ;
 ; PD_L12/synthesis/submodules/PD_L12_pll_0.v ; yes             ; User Verilog HDL File        ; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v ; PD_L12  ;
@@ -188,34 +192,34 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------------------------+-----------------+------------------------------+--------------------------------------------------------------------------------------------------------+---------+
 
 
-+--------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                    ;
-+---------------------------------------------+----------------------------------+
-; Resource                                    ; Usage                            ;
-+---------------------------------------------+----------------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 58                               ;
-;                                             ;                                  ;
-; Combinational ALUT usage for logic          ; 97                               ;
-;     -- 7 input functions                    ; 0                                ;
-;     -- 6 input functions                    ; 18                               ;
-;     -- 5 input functions                    ; 13                               ;
-;     -- 4 input functions                    ; 44                               ;
-;     -- <=3 input functions                  ; 22                               ;
-;                                             ;                                  ;
-; Dedicated logic registers                   ; 4                                ;
-;                                             ;                                  ;
-; I/O pins                                    ; 64                               ;
-;                                             ;                                  ;
-; Total DSP Blocks                            ; 0                                ;
-;                                             ;                                  ;
-; Total PLLs                                  ; 1                                ;
-;     -- PLLs                                 ; 1                                ;
-;                                             ;                                  ;
-; Maximum fan-out node                        ; ADC_controller:u2|COUNTER_VAL[1] ;
-; Maximum fan-out                             ; 20                               ;
-; Total fan-out                               ; 517                              ;
-; Average fan-out                             ; 2.25                             ;
-+---------------------------------------------+----------------------------------+
++------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                            ;
++---------------------------------------------+--------------------------+
+; Resource                                    ; Usage                    ;
++---------------------------------------------+--------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 46                       ;
+;                                             ;                          ;
+; Combinational ALUT usage for logic          ; 69                       ;
+;     -- 7 input functions                    ; 1                        ;
+;     -- 6 input functions                    ; 17                       ;
+;     -- 5 input functions                    ; 14                       ;
+;     -- 4 input functions                    ; 30                       ;
+;     -- <=3 input functions                  ; 7                        ;
+;                                             ;                          ;
+; Dedicated logic registers                   ; 33                       ;
+;                                             ;                          ;
+; I/O pins                                    ; 64                       ;
+;                                             ;                          ;
+; Total DSP Blocks                            ; 0                        ;
+;                                             ;                          ;
+; Total PLLs                                  ; 1                        ;
+;     -- PLLs                                 ; 1                        ;
+;                                             ;                          ;
+; Maximum fan-out node                        ; ADC_controller:u1|CONVST ;
+; Maximum fan-out                             ; 13                       ;
+; Total fan-out                               ; 494                      ;
+; Average fan-out                             ; 2.14                     ;
++---------------------------------------------+--------------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -223,13 +227,15 @@ https://fpgasoftware.intel.com/eula.
 +------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------+----------------+--------------+
 ; Compilation Hierarchy Node         ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                             ; Entity Name    ; Library Name ;
 +------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------------------------------+----------------+--------------+
-; |IT_LAB_12                         ; 97 (0)              ; 4 (0)                     ; 0                 ; 0          ; 64   ; 0            ; |IT_LAB_12                                                      ; IT_LAB_12      ; work         ;
-;    |ADC_controller:u2|             ; 36 (36)             ; 4 (4)                     ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|ADC_controller:u2                                    ; ADC_controller ; work         ;
+; |IT_LAB_12                         ; 69 (0)              ; 33 (0)                    ; 0                 ; 0          ; 64   ; 0            ; |IT_LAB_12                                                      ; IT_LAB_12      ; work         ;
+;    |ADC_controller:u1|             ; 6 (6)               ; 28 (16)                   ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|ADC_controller:u1                                    ; ADC_controller ; work         ;
+;       |shift:u0|                   ; 0 (0)               ; 12 (12)                   ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|ADC_controller:u1|shift:u0                           ; shift          ; work         ;
 ;    |PD_L12:u0|                     ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|PD_L12:u0                                            ; PD_L12         ; PD_L12       ;
 ;       |PD_L12_pll_0:pll_0|         ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|PD_L12:u0|PD_L12_pll_0:pll_0                         ; PD_L12_pll_0   ; PD_L12       ;
 ;          |altera_pll:altera_pll_i| ; 0 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|PD_L12:u0|PD_L12_pll_0:pll_0|altera_pll:altera_pll_i ; altera_pll     ; work         ;
 ;    |bin2bcd:u3|                    ; 32 (32)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|bin2bcd:u3                                           ; bin2bcd        ; work         ;
-;    |clk_gate:u1|                   ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|clk_gate:u1                                          ; clk_gate       ; work         ;
+;    |clk_gate:u2|                   ; 3 (3)               ; 2 (2)                     ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|clk_gate:u2                                          ; clk_gate       ; work         ;
+;    |reset:u8|                      ; 1 (1)               ; 3 (3)                     ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|reset:u8                                             ; reset          ; work         ;
 ;    |segment7:u4|                   ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|segment7:u4                                          ; segment7       ; work         ;
 ;    |segment7:u5|                   ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|segment7:u5                                          ; segment7       ; work         ;
 ;    |segment7:u6|                   ; 7 (7)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |IT_LAB_12|segment7:u6                                          ; segment7       ; work         ;
@@ -248,41 +254,15 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+--------------+---------+--------------+--------------+-----------------------------------------+-----------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                                                                                ;
-+-----------------------------------------------------+---------------------------------------------------------------------+------------------------+
-; Latch Name                                          ; Latch Enable Signal                                                 ; Free of Timing Hazards ;
-+-----------------------------------------------------+---------------------------------------------------------------------+------------------------+
-; ADC_controller:u2|DOUT[0]                           ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|DOUT[1]                           ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|DOUT[2]                           ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|DOUT[3]                           ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|DOUT[4]                           ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|DOUT[5]                           ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|DOUT[6]                           ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|DOUT[7]                           ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|DOUT[8]                           ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|DOUT[9]                           ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|DOUT[11]                          ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|DOUT[10]                          ; ADC_controller:u2|Decoder0                                          ; yes                    ;
-; ADC_controller:u2|CONVST                            ; ADC_controller:u2|WideOr0                                           ; yes                    ;
-; ADC_controller:u2|SDI                               ; ADC_controller:u2|Mux0                                              ; yes                    ;
-; clk_gate:u1|clkg_en                                 ; PD_L12:u0|PD_L12_pll_0:pll_0|altera_pll:altera_pll_i|outclk_wire[0] ; yes                    ;
-; ADC_controller:u2|ADC_clk_en                        ; ADC_controller:u2|WideOr1                                           ; yes                    ;
-; Number of user-specified and inferred latches = 16  ;                                                                     ;                        ;
-+-----------------------------------------------------+---------------------------------------------------------------------+------------------------+
-Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
-
-
 +------------------------------------------------------+
 ; General Register Statistics                          ;
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 4     ;
+; Total registers                              ; 33    ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Clear ; 15    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
@@ -536,6 +516,25 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: ADC_controller:u1|shift:u0 ;
++----------------+-------+------------------------------------------------+
+; Parameter Name ; Value ; Type                                           ;
++----------------+-------+------------------------------------------------+
+; REG_DEPTH      ; 12    ; Signed Integer                                 ;
++----------------+-------+------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Port Connectivity Checks: "ADC_controller:u1|shift:u0" ;
++--------+-------+----------+----------------------------+
+; Port   ; Type  ; Severity ; Details                    ;
++--------+-------+----------+----------------------------+
+; enable ; Input ; Info     ; Stuck at VCC               ;
++--------+-------+----------+----------------------------+
+
+
 +--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Port Connectivity Checks: "PD_L12:u0|PD_L12_pll_0:pll_0|altera_pll:altera_pll_i"                                                                                                     ;
 +-------------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
@@ -566,27 +565,39 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-------------------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
 
 
++-------------------------------------------------+
+; Port Connectivity Checks: "PD_L12:u0"           ;
++---------------+-------+----------+--------------+
+; Port          ; Type  ; Severity ; Details      ;
++---------------+-------+----------+--------------+
+; reset_reset_n ; Input ; Info     ; Stuck at VCC ;
++---------------+-------+----------+--------------+
+
+
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_ff             ; 4                           ;
-;     plain             ; 4                           ;
-; arriav_lcell_comb     ; 105                         ;
-;     normal            ; 105                         ;
+; arriav_ff             ; 33                          ;
+;     CLR               ; 15                          ;
+;     plain             ; 18                          ;
+; arriav_lcell_comb     ; 77                          ;
+;     extend            ; 1                           ;
+;         7 data inputs ; 1                           ;
+;     normal            ; 76                          ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 8                           ;
-;         2 data inputs ; 2                           ;
-;         3 data inputs ; 19                          ;
-;         4 data inputs ; 44                          ;
-;         5 data inputs ; 13                          ;
-;         6 data inputs ; 18                          ;
+;         1 data inputs ; 7                           ;
+;         2 data inputs ; 3                           ;
+;         3 data inputs ; 4                           ;
+;         4 data inputs ; 30                          ;
+;         5 data inputs ; 14                          ;
+;         6 data inputs ; 17                          ;
 ; boundary_port         ; 64                          ;
 ; generic_pll           ; 1                           ;
 ;                       ;                             ;
 ; Max LUT depth         ; 6.00                        ;
-; Average LUT depth     ; 3.75                        ;
+; Average LUT depth     ; 3.62                        ;
 +-----------------------+-----------------------------+
 
 
@@ -595,7 +606,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -605,9 +616,13 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
-    Info: Processing started: Sun Apr 24 17:52:31 2022
+    Info: Processing started: Mon Apr 25 16:30:09 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off IT_LAB_12 -c IT_LAB_12
 Info (20032): Parallel compilation is enabled and will use up to 4 processors
+Info (12021): Found 1 design units, including 1 entities, in source file /users/idtti/onedrive/desktop/ecen_3763/lab_wk_12/source/shift.sv
+    Info (12023): Found entity 1: shift File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/shift.sv Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file /users/idtti/onedrive/desktop/ecen_3763/lab_wk_12/source/reset.sv
+    Info (12023): Found entity 1: reset File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/reset.sv Line: 4
 Info (12021): Found 1 design units, including 1 entities, in source file /users/idtti/onedrive/desktop/ecen_3763/lab_wk_12/source/tb.sv
     Info (12023): Found entity 1: tb File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/tb.sv Line: 11
 Info (12021): Found 1 design units, including 1 entities, in source file /users/idtti/onedrive/desktop/ecen_3763/lab_wk_12/source/adc_controller.sv
@@ -625,9 +640,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file /users/
 Info (12021): Found 1 design units, including 1 entities, in source file /users/idtti/onedrive/desktop/ecen_3763/lab_wk_12/source/bin2bcd.sv
     Info (12023): Found entity 1: bin2bcd File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv Line: 9
 Info (12127): Elaborating entity "IT_LAB_12" for the top level hierarchy
-Warning (10034): Output port "HEX4" at IT_LAB_12.sv(25) has no driver File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
-Warning (10034): Output port "HEX5" at IT_LAB_12.sv(26) has no driver File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
-Info (12128): Elaborating entity "PD_L12" for hierarchy "PD_L12:u0" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 62
+Info (12128): Elaborating entity "PD_L12" for hierarchy "PD_L12:u0" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 67
 Info (12128): Elaborating entity "PD_L12_pll_0" for hierarchy "PD_L12:u0|PD_L12_pll_0:pll_0" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v Line: 18
 Info (12128): Elaborating entity "altera_pll" for hierarchy "PD_L12:u0|PD_L12_pll_0:pll_0|altera_pll:altera_pll_i" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v Line: 85
 Info (10008): Verilog HDL or VHDL information: EDA Netlist Writer cannot regroup multidimensional array "wire_to_nowhere_64" into its bus
@@ -693,74 +706,34 @@ Info (12133): Instantiated megafunction "PD_L12:u0|PD_L12_pll_0:pll_0|altera_pll
     Info (12134): Parameter "duty_cycle17" = "50"
     Info (12134): Parameter "pll_type" = "General"
     Info (12134): Parameter "pll_subtype" = "General"
-Info (12128): Elaborating entity "clk_gate" for hierarchy "clk_gate:u1" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 69
-Info (10041): Inferred latch for "clkg_en" at clk_gate.sv(12) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv Line: 12
-Info (12128): Elaborating entity "ADC_controller" for hierarchy "ADC_controller:u2" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 79
-Warning (10230): Verilog HDL assignment warning at ADC_controller.sv(14): truncated value with size 32 to match size of target (4) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 14
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(51): variable "CTRL" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 51
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(52): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 52
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(56): variable "CTRL" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 56
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(57): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 57
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(60): variable "CTRL" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 60
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(61): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 61
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(64): variable "CTRL" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 64
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(65): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 65
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(68): variable "CTRL" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 68
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(69): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 69
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(72): variable "CTRL" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 72
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(73): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 73
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(75): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 75
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(76): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 76
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(77): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 77
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(78): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 78
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(79): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 79
-Warning (10235): Verilog HDL Always Construct warning at ADC_controller.sv(81): variable "SDO" is read inside the Always Construct but isn't in the Always Construct's Event Control File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 81
-Warning (10240): Verilog HDL Always Construct warning at ADC_controller.sv(41): inferring latch(es) for variable "CONVST", which holds its previous value in one or more paths through the always construct File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Warning (10240): Verilog HDL Always Construct warning at ADC_controller.sv(41): inferring latch(es) for variable "DOUT", which holds its previous value in one or more paths through the always construct File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Warning (10240): Verilog HDL Always Construct warning at ADC_controller.sv(41): inferring latch(es) for variable "ADC_clk_en", which holds its previous value in one or more paths through the always construct File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Warning (10240): Verilog HDL Always Construct warning at ADC_controller.sv(41): inferring latch(es) for variable "SDI", which holds its previous value in one or more paths through the always construct File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "SDI" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "ADC_clk_en" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[0]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[1]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[2]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[3]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[4]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[5]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[6]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[7]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[8]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[9]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[10]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "DOUT[11]" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (10041): Inferred latch for "CONVST" at ADC_controller.sv(41) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 41
-Info (12128): Elaborating entity "bin2bcd" for hierarchy "bin2bcd:u3" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 84
-Info (12128): Elaborating entity "segment7" for hierarchy "segment7:u4" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 89
+Info (12128): Elaborating entity "ADC_controller" for hierarchy "ADC_controller:u1" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 81
+Warning (10230): Verilog HDL assignment warning at ADC_controller.sv(29): truncated value with size 32 to match size of target (4) File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 29
+Info (12128): Elaborating entity "shift" for hierarchy "ADC_controller:u1|shift:u0" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 21
+Info (12128): Elaborating entity "clk_gate" for hierarchy "clk_gate:u2" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 88
+Info (12128): Elaborating entity "bin2bcd" for hierarchy "bin2bcd:u3" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 93
+Info (12128): Elaborating entity "segment7" for hierarchy "segment7:u4" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 98
+Info (12128): Elaborating entity "reset" for hierarchy "reset:u8" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 120
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Warning (13012): Latch ADC_controller:u2|CONVST has unsafe behavior File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 5
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ADC_controller:u2|COUNTER_VAL[1] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 13
-Warning (13012): Latch ADC_controller:u2|SDI has unsafe behavior File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 4
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ADC_controller:u2|COUNTER_VAL[2] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 13
-Warning (13012): Latch ADC_controller:u2|ADC_clk_en has unsafe behavior File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 8
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ADC_controller:u2|COUNTER_VAL[0] File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv Line: 13
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX4[0]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
-    Warning (13410): Pin "HEX4[1]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
-    Warning (13410): Pin "HEX4[2]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
-    Warning (13410): Pin "HEX4[3]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
-    Warning (13410): Pin "HEX4[4]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
-    Warning (13410): Pin "HEX4[5]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
-    Warning (13410): Pin "HEX4[6]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
-    Warning (13410): Pin "HEX5[0]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
-    Warning (13410): Pin "HEX5[1]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
-    Warning (13410): Pin "HEX5[2]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
-    Warning (13410): Pin "HEX5[3]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
-    Warning (13410): Pin "HEX5[4]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
-    Warning (13410): Pin "HEX5[5]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
-    Warning (13410): Pin "HEX5[6]" is stuck at GND File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
+    Warning (13410): Pin "HEX4[0]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
+    Warning (13410): Pin "HEX4[1]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
+    Warning (13410): Pin "HEX4[2]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
+    Warning (13410): Pin "HEX4[3]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
+    Warning (13410): Pin "HEX4[4]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
+    Warning (13410): Pin "HEX4[5]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
+    Warning (13410): Pin "HEX4[6]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 25
+    Warning (13410): Pin "HEX5[0]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
+    Warning (13410): Pin "HEX5[1]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
+    Warning (13410): Pin "HEX5[2]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
+    Warning (13410): Pin "HEX5[3]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
+    Warning (13410): Pin "HEX5[4]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
+    Warning (13410): Pin "HEX5[5]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
+    Warning (13410): Pin "HEX5[6]" is stuck at VCC File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 26
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
-    Info (16011): Adding 5 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
+    Info (16011): Adding 3 node(s), including 0 DDIO, 1 PLL, 0 transceiver and 0 LCELL
+Warning: RST port on the PLL is not properly connected on instance PD_L12:u0|PD_L12_pll_0:pll_0|altera_pll:altera_pll_i|general[0].gpll. The reset port on the PLL should be connected. If the PLL loses lock for any reason, you might need to manually reset the PLL in order to re-establish lock to the reference clock. File: c:/intelfpga/20.1/quartus/libraries/megafunctions/altera_pll.v Line: 749
+    Info: Must be connected
 Warning (21074): Design contains 13 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "CLOCK2_50" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 9
     Warning (15610): No output dependent on input pin "CLOCK3_50" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 10
@@ -775,15 +748,15 @@ Warning (21074): Design contains 13 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SW[7]" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 18
     Warning (15610): No output dependent on input pin "SW[8]" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 18
     Warning (15610): No output dependent on input pin "SW[9]" File: C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv Line: 18
-Info (21057): Implemented 162 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 161 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 19 input pins
     Info (21059): Implemented 45 output pins
-    Info (21061): Implemented 97 logic cells
+    Info (21061): Implemented 96 logic cells
     Info (21065): Implemented 1 PLLs
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 61 warnings
-    Info: Peak virtual memory: 4833 megabytes
-    Info: Processing ended: Sun Apr 24 17:52:45 2022
-    Info: Elapsed time: 00:00:14
-    Info: Total CPU time (on all processors): 00:00:32
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 32 warnings
+    Info: Peak virtual memory: 4831 megabytes
+    Info: Processing ended: Mon Apr 25 16:30:29 2022
+    Info: Elapsed time: 00:00:20
+    Info: Total CPU time (on all processors): 00:00:44
 
 

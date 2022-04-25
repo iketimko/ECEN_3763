@@ -1,17 +1,33 @@
-module ADC_controller (ADC_clk, SDO, SDI, CONVST, binval, switch, ADC_clk_en);
+module ADC_controller (ADC_clk, SDO, SDI, CONVST, binval, switch, reset, state, gated_clk, shift_rst);
     input ADC_clk;
     input SDO;
     output logic SDI;
     output logic CONVST;
     output logic [11:0] binval;
     input [2:0] switch;
-    output logic ADC_clk_en;
+    input reset;
+    output logic [3:0] state;
+    input logic gated_clk;
+    input shift_rst;
+
+    logic [11:0] DOUT;
+
+    shift u0 (
+        .clk    (gated_clk),       //clock signal
+        .enable (1'b1),       //enable signal
+        .rst    (shift_rst),       //reset signal
+        .data_in(SDO),   //input bit
+        .data_out(DOUT)  //output bit
+    );
 
     // Set up counter 
-    logic [3:0] COUNTER_VAL;
-
 	always_ff @(posedge ADC_clk) begin
-        COUNTER_VAL <= COUNTER_VAL + 'b1;
+        if (reset) begin
+            state <= 'b0;
+        end
+        else begin
+            state <= state + 'b1;
+        end
 	end
 
     // Set the Control bits
@@ -31,61 +47,84 @@ module ADC_controller (ADC_clk, SDO, SDI, CONVST, binval, switch, ADC_clk_en);
         endcase
     end
 
-
-    // QUESTION: Is it okay to allow SDI to float during delay bits (state 3 and 15) and during start_conv bits (state 0 and 1)
-    // QUESTION: Do I send the LSB (CTRL[0]) first or the MSB (CTRL[5])
-
     // Handle State Machine with Case statement
-    logic [11:0] DOUT = 'b0;
-
-    always @(COUNTER_VAL)
-    begin
-        case (COUNTER_VAL)
+    always_comb begin
+        case (state)
             0 : begin 
-                    CONVST = 'b0;   // Convert start pulse
-                    ADC_clk_en = 'b0; // Disable the SCK
+                    SDI = 'b0;
+                    CONVST = 'b1;   // Convert start pulse
                 end
-            1 : CONVST = 'b0;   // Convert start pulse
-            2 : CONVST = 'b1;   // delay 1 clk cycle
+            1 : begin
+                    SDI = 'b0;
+                    CONVST = 'b1;   // Convert start pulse
+                end
+            2 : begin 
+                    SDI = 'b0;
+                    CONVST = 'b0;   // Delay 1 clock cycle
+                end
             3 : begin
                     SDI = CTRL[5]; // Load first control bit
-                    DOUT[11] = SDO; // Read eleventh Data Bit
-                    ADC_clk_en = 'b1; // Enable the SCK to begin the transmission
+                    CONVST = 'b0;
                 end
             4 : begin
                     SDI = CTRL[4]; // Load second control bit
-                    DOUT[10] = SDO; // Read tenth Data Bit
+                    CONVST = 'b0;
                 end 
             5 : begin
                     SDI = CTRL[3]; // Load third control bit
-                    DOUT[9] = SDO; // Read nineth Data Bit
+                    CONVST = 'b0;
                 end
             6 : begin
                     SDI = CTRL[2]; // Load fourth control bit
-                    DOUT[8] = SDO; // Read eighth Data Bit
+                    CONVST = 'b0;
                 end
             7 : begin
                     SDI = CTRL[1]; // Load fifth control bit
-                    DOUT[7] = SDO; // Read seventh Data Bit
+                    CONVST = 'b0;
                 end
             8 : begin
                     SDI = CTRL[0]; // Load last control bit
-                    DOUT[6] = SDO; // Read sixth Data Bit
+                    CONVST = 'b0;
                 end
-            9 : DOUT[5] = SDO; // Read fifth Data Bit;
-            10 : DOUT[4] = SDO; // Read fourth Data Bit;
-            11 : DOUT[3] = SDO; // Read third Data Bit;
-            12 : DOUT[2] = SDO; // Read second Data Bit;
-            13 : DOUT[1] = SDO; // Read first Data Bit;
+            9 : begin 
+                    SDI = 'b0;
+                    CONVST = 'b0; 
+                end
+            10 : begin 
+                    SDI = 'b0;
+                    CONVST = 'b0; 
+                end
+            11 : begin 
+                    SDI = 'b0;
+                    CONVST = 'b0;
+                end
+            12 : begin 
+                    SDI = 'b0;
+                    CONVST = 'b0;
+                end
+            13 : begin 
+                    SDI = 'b0;
+                    CONVST = 'b0;
+                end
             14 : begin
-                    DOUT[0] = SDO; // Read last Data Bit;
-                    ADC_clk_en = 'b0; // disable the SCK to end the transmission
+                    SDI = 'b0;
+                    CONVST = 'b0;
                 end
-            15 : CONVST = 'b1;   // delay 1 clk cycle
-            default : CONVST = 'b1; 
+            15 : begin 
+                    SDI = 'b0;
+                    CONVST = 'b0;   // Delay 1 clock cycle
+                end
+            default : begin 
+                        SDI = 'b0;
+                        CONVST = 'b0;   // Delay 1 clock cycle
+                    end
         endcase
     end
 
-    assign binval = DOUT;
+    // update outputs every cycle
+    always_ff @(posedge CONVST) begin
+        binval = DOUT;
+    end
+
 
 endmodule

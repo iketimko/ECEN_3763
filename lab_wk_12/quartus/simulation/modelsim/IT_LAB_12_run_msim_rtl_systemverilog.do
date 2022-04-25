@@ -9,6 +9,8 @@ vlib PD_L12
 vmap PD_L12 PD_L12
 vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v}
 vlog -vlog01compat -work PD_L12 +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v}
+vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/shift.sv}
+vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/reset.sv}
 vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv}
 vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv}
 vlog -sv -work work +incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source {C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv}

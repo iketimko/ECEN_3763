@@ -1,5 +1,5 @@
 Archive Project report for IT_LAB_12
-Sun Apr 24 17:58:36 2022
+Mon Apr 25 16:35:54 2022
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Standard Edition
 
 
@@ -36,7 +36,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------+
 ; Archive Project Summary                                        ;
 +------------------------+---------------------------------------+
-; Archive Project Status ; Successful - Sun Apr 24 17:58:36 2022 ;
+; Archive Project Status ; Successful - Mon Apr 25 16:35:54 2022 ;
 ; Revision Name          ; IT_LAB_12                             ;
 ; Top-level Entity Name  ; IT_LAB_12                             ;
 ; Family                 ; Cyclone V                             ;
@@ -46,9 +46,9 @@ https://fpgasoftware.intel.com/eula.
 +--------------------------+
 ; Archive Project Messages ;
 +--------------------------+
-Info: File Set 'Source control' contains:
-    Info: Project source and settings files
+Info: File Set 'Custom' contains:
     Info: Automatically detected source files
+    Info: Project source and settings files
 Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
 Info: Archive will store files relative to the closest common parent directory
 Info (13213): Using common directory C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/
@@ -59,43 +59,44 @@ Info: ----------------------------------------------------------
 Info: ----------------------------------------------------------
 Info: Generated report 'IT_LAB_12.archive.rpt'
 Info (23030): Evaluation of Tcl script c:/intelfpga/20.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
-Info: Quartus Prime Shell was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4827 megabytes
-    Info: Processing ended: Sun Apr 24 17:58:36 2022
-    Info: Elapsed time: 00:00:01
-    Info: Total CPU time (on all processors): 00:00:01
+Info: Quartus Prime Shell was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4829 megabytes
+    Info: Processing ended: Mon Apr 25 16:35:54 2022
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
 
 
-+------------------------------------------------------------------------------+
-; Files Archived                                                               ;
-+------------------------------------------------------------------------------+
-; File Name                                                                    ;
-+------------------------------------------------------------------------------+
-; ../source/ADC_controller.sv                                                  ;
-; ../source/bin2bcd.sv                                                         ;
-; ../source/clk_gate.sv                                                        ;
-; ../source/IT_LAB_12.sv                                                       ;
-; ../source/segment7.sv                                                        ;
-; ../source/tb.sv                                                              ;
-; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv ;
-; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv        ;
-; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv       ;
-; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv      ;
-; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv       ;
-; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/tb.sv             ;
-; IT_LAB_12.qpf                                                                ;
-; IT_LAB_12.qsf                                                                ;
-; IT_LAB_12.SDC                                                                ;
-; IT_LAB_12.sdc                                                                ;
-; IT_LAB_12_assignment_defaults.qdf                                            ;
-; PD_L12/synthesis/../../PD_L12.qsys                                           ;
-; PD_L12/synthesis/../../PD_L12.sopcinfo                                       ;
-; PD_L12/synthesis/../PD_L12.cmp                                               ;
-; PD_L12/synthesis/PD_L12.debuginfo                                            ;
-; PD_L12/synthesis/PD_L12.qip                                                  ;
-; PD_L12/synthesis/PD_L12.v                                                    ;
-; PD_L12/synthesis/submodules/PD_L12_pll_0.qip                                 ;
-; PD_L12/synthesis/submodules/PD_L12_pll_0.v                                   ;
-+------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------+
+; Files Archived                                                                   ;
++----------------------------------------------------------------------------------+
+; File Name                                                                        ;
++----------------------------------------------------------------------------------+
+; ../source/ADC_controller.sv                                                      ;
+; ../source/bin2bcd.sv                                                             ;
+; ../source/clk_gate.sv                                                            ;
+; ../source/IT_LAB_12.sv                                                           ;
+; ../source/reset.sv                                                               ;
+; ../source/segment7.sv                                                            ;
+; ../source/shift.sv                                                               ;
+; ../source/tb.sv                                                                  ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv     ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv            ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv           ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv          ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.tcl         ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/reset.sv              ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/run_me_to_compile.bat ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv           ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/shift.sv              ;
+; C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/tb.sv                 ;
+; IT_LAB_12.qpf                                                                    ;
+; IT_LAB_12.qsf                                                                    ;
+; IT_LAB_12.SDC                                                                    ;
+; IT_LAB_12_assignment_defaults.qdf                                                ;
+; PD_L12/synthesis/PD_L12.qip                                                      ;
+; PD_L12/synthesis/PD_L12.v                                                        ;
+; PD_L12/synthesis/submodules/PD_L12_pll_0.qip                                     ;
+; PD_L12/synthesis/submodules/PD_L12_pll_0.v                                       ;
++----------------------------------------------------------------------------------+
 
 

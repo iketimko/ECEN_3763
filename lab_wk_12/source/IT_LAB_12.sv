@@ -37,45 +37,54 @@ module IT_LAB_12(
 //  REG/WIRE declarations
 //=======================================================
 // For Platform Designer block
-logic PLL_locked, AD_clk, reset_n;
+logic pll_locked, AD_clk;
 
 // For clock Gate
-logic ADC_clk_en = 0;
+logic [3:0] state;
+logic shift_rst;
+logic gated_AD_clk;
+assign ADC_SCLK = gated_AD_clk;
 
-// logic gated_AD_clk;
-// assign ADC_SCLK = gated_AD_clk;
-
-// For Binary to BCD function
+// For Binary to BCD module
 logic [11:0] binary_in;
 logic [15:0] bcd_out;
 
-assign reset_n = KEY[0];
+//For reset Module
+logic reset_n;
+
+// For the 7 segment Display
+assign HEX4 = 7'b1111111;
+assign HEX5 = 7'b1111111;
 
 //=======================================================
 //  Structural coding
 //=======================================================
 PD_L12 u0 (
 	.clk_clk             (CLOCK_50),             //           clk.clk
-	.reset_reset_n       (reset_n),       //         reset.reset_n
-	.pll_0_locked_export (PLL_locked), //  pll_0_locked.export
+	.reset_reset_n       (1'b1),       //         reset.reset_n
+	.pll_0_locked_export (pll_locked), //  pll_0_locked.export
 	.pll_0_outclk0_clk   (AD_clk)    // pll_0_outclk0.clk
 );
 
-clk_gate u1 (
-	.clk_in		(AD_clk),
-	.enable		(ADC_clk_en), 
-	.reset		( (~reset_n) & (~PLL_locked) ), 
-	.clk_out	(ADC_SCLK) // OPTIONALLY: gated_AD_clk
-);
-
-ADC_controller u2 (
+ADC_controller u1 (
 	.ADC_clk(AD_clk),
 	.SDO	(ADC_DOUT),
 	.SDI 	(ADC_DIN),
 	.CONVST (ADC_CONVST),
 	.binval	(binary_in),
 	.switch	(SW[2:0]),
-	.ADC_clk_en
+	.reset	(~reset_n),
+	.state,
+	.gated_clk(gated_AD_clk),
+	.shift_rst
+
+);
+
+clk_gate u2 (
+	.clk_in		(AD_clk),
+	.state, 
+	.clk_out	(gated_AD_clk),
+	.shift_rst
 );
 
 bin2bcd u3 (
@@ -101,6 +110,13 @@ segment7 u6 (
 segment7 u7 (
 	.bcd	(bcd_out[15:12]), 
 	.seg	(HEX3)
+);
+
+reset u8 (
+	.clock			(CLOCK_50), 
+	.ext_reset_n	(KEY[0]), 
+	.pll_locked, 
+	.reset_n
 );
 
 endmodule

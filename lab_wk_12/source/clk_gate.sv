@@ -1,27 +1,30 @@
 
-module clk_gate (clk_in, enable, reset, clk_out);
+module clk_gate (clk_in, state, clk_out, shift_rst);
 
-input enable;
+input [3:0] state;
 input clk_in;
-input reset;
 output logic clk_out;
+output logic shift_rst;
 
-logic clkg_en, gated_clk;
+logic clkg_en, gated_clk, reset_shift_reg;
 
-always_latch  begin
- if(~clk_in) 
-    clkg_en = enable;
+always_ff @(negedge clk_in) begin
+    if (state == 0) begin
+        reset_shift_reg = 1'b1;
+    end else begin
+        reset_shift_reg = 1'b0;
+    end
+end
+
+always_ff @(negedge clk_in) begin
+    if((state > 1) & (state < 14)) begin
+        clkg_en = 1'b1;
+    end else begin
+        clkg_en = 1'b0;
+    end
 end
 
 assign clk_out = clk_in & clkg_en;
- 
-// assign gated_clk = clk_in & clkg_en;
-
-// always_ff @(posedge gated_clk, negedge reset) begin
-//   if(reset)
-//      Q <= 1'b0;
-//   else 
-//      Q <= D;
-// end
+assign shift_rst = reset_shift_reg;
 
 endmodule

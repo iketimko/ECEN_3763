@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Sun Apr 24 17:52:45 2022
+Analysis & Synthesis Status : Successful - Mon Apr 25 16:30:29 2022
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
 Revision Name : IT_LAB_12
 Top-level Entity Name : IT_LAB_12
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 4
+Total registers : 33
 Total pins : 64
 Total virtual pins : 0
 Total block memory bits : 0

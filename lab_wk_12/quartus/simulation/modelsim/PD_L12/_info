@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/simulation/modelsim
 vPD_L12
-Z1 !s110 1650844026
+Z1 !s110 1650924376
 !i10b 1
 !s100 WJ?lI>O<5An907J3D7FXJ0
 Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ R0
 Z4 w1650836311
 8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v
 FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v
-!i122 12
+!i122 36
 L0 6 15
 Z5 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z6 !s108 1650844026.000000
+Z6 !s108 1650924376.000000
 !s107 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v|
 !s90 -reportprogress|300|-vlog01compat|-work|PD_L12|+incdir+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis|C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v|
 !i113 1
@@ -45,7 +45,7 @@ R0
 R4
 8C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v
 FC:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v
-!i122 13
+!i122 37
 L0 2 85
 R5
 r1

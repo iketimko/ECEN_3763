@@ -3,13 +3,13 @@ CLOCK2_50 => ~NO_FANOUT~
 CLOCK3_50 => ~NO_FANOUT~
 CLOCK4_50 => ~NO_FANOUT~
 CLOCK_50 => CLOCK_50.IN1
-KEY[0] => reset_n.IN1
+KEY[0] => reset:u8.ext_reset_n
 KEY[1] => ~NO_FANOUT~
 KEY[2] => ~NO_FANOUT~
 KEY[3] => ~NO_FANOUT~
-SW[0] => ADC_controller:u2.switch[0]
-SW[1] => ADC_controller:u2.switch[1]
-SW[2] => ADC_controller:u2.switch[2]
+SW[0] => ADC_controller:u1.switch[0]
+SW[1] => ADC_controller:u1.switch[1]
+SW[2] => ADC_controller:u1.switch[2]
 SW[3] => ~NO_FANOUT~
 SW[4] => ~NO_FANOUT~
 SW[5] => ~NO_FANOUT~
@@ -17,52 +17,52 @@ SW[6] => ~NO_FANOUT~
 SW[7] => ~NO_FANOUT~
 SW[8] => ~NO_FANOUT~
 SW[9] => ~NO_FANOUT~
-HEX0[0] <= segment7:u4.seg
-HEX0[1] <= segment7:u4.seg
-HEX0[2] <= segment7:u4.seg
-HEX0[3] <= segment7:u4.seg
-HEX0[4] <= segment7:u4.seg
-HEX0[5] <= segment7:u4.seg
-HEX0[6] <= segment7:u4.seg
-HEX1[0] <= segment7:u5.seg
-HEX1[1] <= segment7:u5.seg
-HEX1[2] <= segment7:u5.seg
-HEX1[3] <= segment7:u5.seg
-HEX1[4] <= segment7:u5.seg
-HEX1[5] <= segment7:u5.seg
-HEX1[6] <= segment7:u5.seg
-HEX2[0] <= segment7:u6.seg
-HEX2[1] <= segment7:u6.seg
-HEX2[2] <= segment7:u6.seg
-HEX2[3] <= segment7:u6.seg
-HEX2[4] <= segment7:u6.seg
-HEX2[5] <= segment7:u6.seg
-HEX2[6] <= segment7:u6.seg
-HEX3[0] <= segment7:u7.seg
-HEX3[1] <= segment7:u7.seg
-HEX3[2] <= segment7:u7.seg
-HEX3[3] <= segment7:u7.seg
-HEX3[4] <= segment7:u7.seg
-HEX3[5] <= segment7:u7.seg
-HEX3[6] <= segment7:u7.seg
-HEX4[0] <= <GND>
-HEX4[1] <= <GND>
-HEX4[2] <= <GND>
-HEX4[3] <= <GND>
-HEX4[4] <= <GND>
-HEX4[5] <= <GND>
-HEX4[6] <= <GND>
-HEX5[0] <= <GND>
-HEX5[1] <= <GND>
-HEX5[2] <= <GND>
-HEX5[3] <= <GND>
-HEX5[4] <= <GND>
-HEX5[5] <= <GND>
-HEX5[6] <= <GND>
-ADC_CONVST <= ADC_controller:u2.CONVST
-ADC_DIN <= ADC_controller:u2.SDI
-ADC_DOUT => ADC_controller:u2.SDO
-ADC_SCLK <= clk_gate:u1.clk_out
+HEX0[0] << segment7:u4.seg
+HEX0[1] << segment7:u4.seg
+HEX0[2] << segment7:u4.seg
+HEX0[3] << segment7:u4.seg
+HEX0[4] << segment7:u4.seg
+HEX0[5] << segment7:u4.seg
+HEX0[6] << segment7:u4.seg
+HEX1[0] << segment7:u5.seg
+HEX1[1] << segment7:u5.seg
+HEX1[2] << segment7:u5.seg
+HEX1[3] << segment7:u5.seg
+HEX1[4] << segment7:u5.seg
+HEX1[5] << segment7:u5.seg
+HEX1[6] << segment7:u5.seg
+HEX2[0] << segment7:u6.seg
+HEX2[1] << segment7:u6.seg
+HEX2[2] << segment7:u6.seg
+HEX2[3] << segment7:u6.seg
+HEX2[4] << segment7:u6.seg
+HEX2[5] << segment7:u6.seg
+HEX2[6] << segment7:u6.seg
+HEX3[0] << segment7:u7.seg
+HEX3[1] << segment7:u7.seg
+HEX3[2] << segment7:u7.seg
+HEX3[3] << segment7:u7.seg
+HEX3[4] << segment7:u7.seg
+HEX3[5] << segment7:u7.seg
+HEX3[6] << segment7:u7.seg
+HEX4[0] << <VCC>
+HEX4[1] << <VCC>
+HEX4[2] << <VCC>
+HEX4[3] << <VCC>
+HEX4[4] << <VCC>
+HEX4[5] << <VCC>
+HEX4[6] << <VCC>
+HEX5[0] << <VCC>
+HEX5[1] << <VCC>
+HEX5[2] << <VCC>
+HEX5[3] << <VCC>
+HEX5[4] << <VCC>
+HEX5[5] << <VCC>
+HEX5[6] << <VCC>
+ADC_CONVST << ADC_controller:u1.CONVST
+ADC_DIN << ADC_controller:u1.SDI
+ADC_DOUT => ADC_controller:u1.SDO
+ADC_SCLK << clk_gate:u2.clk_out
 
 
 |IT_LAB_12|PD_L12:u0
@@ -251,49 +251,111 @@ cascade_out[0] <= <GND>
 zdbfbclk <> <GND>
 
 
-|IT_LAB_12|clk_gate:u1
+|IT_LAB_12|ADC_controller:u1
+ADC_clk => state[0]~reg0.CLK
+ADC_clk => state[1]~reg0.CLK
+ADC_clk => state[2]~reg0.CLK
+ADC_clk => state[3]~reg0.CLK
+SDO => SDO.IN1
+SDI <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+CONVST <= CONVST.DB_MAX_OUTPUT_PORT_TYPE
+binval[0] <= binval[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binval[1] <= binval[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binval[2] <= binval[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binval[3] <= binval[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binval[4] <= binval[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binval[5] <= binval[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binval[6] <= binval[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binval[7] <= binval[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binval[8] <= binval[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binval[9] <= binval[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binval[10] <= binval[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+binval[11] <= binval[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+switch[0] => Mux0.IN17
+switch[1] => Mux0.IN19
+switch[2] => Mux0.IN18
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+reset => state.OUTPUTSELECT
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= state[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[3] <= state[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+gated_clk => gated_clk.IN1
+shift_rst => shift_rst.IN1
+
+
+|IT_LAB_12|ADC_controller:u1|shift:u0
+clk => data_reg[0].CLK
+clk => data_reg[1].CLK
+clk => data_reg[2].CLK
+clk => data_reg[3].CLK
+clk => data_reg[4].CLK
+clk => data_reg[5].CLK
+clk => data_reg[6].CLK
+clk => data_reg[7].CLK
+clk => data_reg[8].CLK
+clk => data_reg[9].CLK
+clk => data_reg[10].CLK
+clk => data_reg[11].CLK
+enable => data_reg[11].ENA
+enable => data_reg[10].ENA
+enable => data_reg[9].ENA
+enable => data_reg[8].ENA
+enable => data_reg[7].ENA
+enable => data_reg[6].ENA
+enable => data_reg[5].ENA
+enable => data_reg[4].ENA
+enable => data_reg[3].ENA
+enable => data_reg[2].ENA
+enable => data_reg[1].ENA
+enable => data_reg[0].ENA
+rst => data_reg[0].ACLR
+rst => data_reg[1].ACLR
+rst => data_reg[2].ACLR
+rst => data_reg[3].ACLR
+rst => data_reg[4].ACLR
+rst => data_reg[5].ACLR
+rst => data_reg[6].ACLR
+rst => data_reg[7].ACLR
+rst => data_reg[8].ACLR
+rst => data_reg[9].ACLR
+rst => data_reg[10].ACLR
+rst => data_reg[11].ACLR
+data_in => data_reg[0].DATAIN
+data_out[0] <= data_reg[0].DB_MAX_OUTPUT_PORT_TYPE
+data_out[1] <= data_reg[1].DB_MAX_OUTPUT_PORT_TYPE
+data_out[2] <= data_reg[2].DB_MAX_OUTPUT_PORT_TYPE
+data_out[3] <= data_reg[3].DB_MAX_OUTPUT_PORT_TYPE
+data_out[4] <= data_reg[4].DB_MAX_OUTPUT_PORT_TYPE
+data_out[5] <= data_reg[5].DB_MAX_OUTPUT_PORT_TYPE
+data_out[6] <= data_reg[6].DB_MAX_OUTPUT_PORT_TYPE
+data_out[7] <= data_reg[7].DB_MAX_OUTPUT_PORT_TYPE
+data_out[8] <= data_reg[8].DB_MAX_OUTPUT_PORT_TYPE
+data_out[9] <= data_reg[9].DB_MAX_OUTPUT_PORT_TYPE
+data_out[10] <= data_reg[10].DB_MAX_OUTPUT_PORT_TYPE
+data_out[11] <= data_reg[11].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IT_LAB_12|clk_gate:u2
 clk_in => clk_out.IN1
-clk_in => clkg_en.LATCH_ENABLE
-enable => clkg_en.DATAIN
-reset => ~NO_FANOUT~
+clk_in => reset_shift_reg.CLK
+clk_in => clkg_en.CLK
+state[0] => LessThan0.IN8
+state[0] => LessThan1.IN8
+state[0] => Equal0.IN31
+state[1] => LessThan0.IN7
+state[1] => LessThan1.IN7
+state[1] => Equal0.IN30
+state[2] => LessThan0.IN6
+state[2] => LessThan1.IN6
+state[2] => Equal0.IN29
+state[3] => LessThan0.IN5
+state[3] => LessThan1.IN5
+state[3] => Equal0.IN28
 clk_out <= clk_out.DB_MAX_OUTPUT_PORT_TYPE
-
-
-|IT_LAB_12|ADC_controller:u2
-ADC_clk => COUNTER_VAL[0].CLK
-ADC_clk => COUNTER_VAL[1].CLK
-ADC_clk => COUNTER_VAL[2].CLK
-ADC_clk => COUNTER_VAL[3].CLK
-SDO => DOUT[0].DATAIN
-SDO => DOUT[1].DATAIN
-SDO => DOUT[2].DATAIN
-SDO => DOUT[3].DATAIN
-SDO => DOUT[4].DATAIN
-SDO => DOUT[5].DATAIN
-SDO => DOUT[6].DATAIN
-SDO => DOUT[7].DATAIN
-SDO => DOUT[8].DATAIN
-SDO => DOUT[9].DATAIN
-SDO => DOUT[10].DATAIN
-SDO => DOUT[11].DATAIN
-SDI <= SDI$latch.DB_MAX_OUTPUT_PORT_TYPE
-CONVST <= CONVST$latch.DB_MAX_OUTPUT_PORT_TYPE
-binval[0] <= DOUT[0].DB_MAX_OUTPUT_PORT_TYPE
-binval[1] <= DOUT[1].DB_MAX_OUTPUT_PORT_TYPE
-binval[2] <= DOUT[2].DB_MAX_OUTPUT_PORT_TYPE
-binval[3] <= DOUT[3].DB_MAX_OUTPUT_PORT_TYPE
-binval[4] <= DOUT[4].DB_MAX_OUTPUT_PORT_TYPE
-binval[5] <= DOUT[5].DB_MAX_OUTPUT_PORT_TYPE
-binval[6] <= DOUT[6].DB_MAX_OUTPUT_PORT_TYPE
-binval[7] <= DOUT[7].DB_MAX_OUTPUT_PORT_TYPE
-binval[8] <= DOUT[8].DB_MAX_OUTPUT_PORT_TYPE
-binval[9] <= DOUT[9].DB_MAX_OUTPUT_PORT_TYPE
-binval[10] <= DOUT[10].DB_MAX_OUTPUT_PORT_TYPE
-binval[11] <= DOUT[11].DB_MAX_OUTPUT_PORT_TYPE
-switch[0] => Mux1.IN17
-switch[1] => Mux1.IN19
-switch[2] => Mux1.IN18
-ADC_clk_en <= ADC_clk_en$latch.DB_MAX_OUTPUT_PORT_TYPE
+shift_rst <= reset_shift_reg.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |IT_LAB_12|bin2bcd:u3
@@ -403,5 +465,14 @@ seg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
 seg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
 seg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
 seg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IT_LAB_12|reset:u8
+clock => reset_n~reg0.CLK
+clock => q1.CLK
+clock => q0.CLK
+ext_reset_n => asynch_reset_n.IN0
+pll_locked => asynch_reset_n.IN1
+reset_n <= reset_n~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
