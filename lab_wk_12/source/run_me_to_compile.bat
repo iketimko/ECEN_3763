@@ -21,4 +21,14 @@ quartus_sh -t IT_LAB_12.tcl | findstr /r^
  /c:"Info: *"^
  /c:"Info: Quartus Prime Fitter"
 ECHO Quartus Flow completed
-pause
+
+CHOICE /C:YN /M:"Would you also Like to program the board?"
+IF ERRORLEVEL ==1 GOTO program
+IF ERRORLEVEL ==2 GOTO dontProgram
+
+:program
+quartus_sh -t prog.tcl
+
+:dontProgram
+ECHO Operation complete press any key to terminate ... 
+pause >nul

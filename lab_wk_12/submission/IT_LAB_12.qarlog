@@ -1,29 +1,40 @@
 Quartus Prime Archive log --	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/submission/IT_LAB_12.qarlog
 
 Archive:	C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/submission/IT_LAB_12.qar
-Date:		Mon Apr 25 16:35:54 2022
+Date:		Mon Apr 25 21:03:12 2022
 Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
 
 	=========== Files Selected: ===========
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/IT_LAB_12.SDC
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/IT_LAB_12.jdi
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/IT_LAB_12.qpf
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/IT_LAB_12.qsf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/IT_LAB_12.sld
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/IT_LAB_12.sof
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/IT_LAB_12.tcl
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/IT_LAB_12_assignment_defaults.qdf
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12.qsys
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12.sopcinfo
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/PD_L12.cmp
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.debuginfo
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.qip
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/PD_L12.v
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.qip
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/PD_L12/synthesis/submodules/PD_L12_pll_0.v
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/db/signal_tap_auto_stripped.stp
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/quartus/signal_tap.stp
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/ADC_controller.sv
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.sv
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/IT_LAB_12.tcl
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/bin2bcd.sv
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/clk_gate.sv
+C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/prog.tcl
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/reset.sv
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/run_me_to_compile.bat
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/segment7.sv
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/shift.sv
 C:/Users/idtti/OneDrive/Desktop/ECEN_3763/lab_wk_12/source/tb.sv
-	======= Total: 18 files to archive =======
+	======= Total: 29 files to archive =======
 
 	================ Status: ===============
 All files archived successfully.
